@@ -3,13 +3,21 @@
     box-sizing: border-box;
 }
 
-.header-container {
-    display:flex;
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.logo {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .title {
     align-items: center;
     display:flex;
+    padding: 0;
 }
 
 .row-first {
