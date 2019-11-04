@@ -8,3 +8,7 @@
     min-width: 70vh;
     background-image: url("https://i.ytimg.com/vi/WCBEammPsu0/maxresdefault.jpg");
 }
+#aboutUs{
+    width: 100%;
+    min-height: auto;
+}
