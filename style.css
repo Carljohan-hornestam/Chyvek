@@ -64,6 +64,6 @@ body {
 .image-boringJobs{
     position: relative;
 }
-#boring-jobs > img{
+.image-boringJobs  img{
     position: absolute;
 }
