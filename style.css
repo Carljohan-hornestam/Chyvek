@@ -8,3 +8,17 @@
     min-width: 70vh;
     background-image: url("https://i.ytimg.com/vi/WCBEammPsu0/maxresdefault.jpg");
 }
+
+
+#package-form{
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 14px;
+    background-color: lightblue;
+    
+}
+
+#package-form img{
+height: 22px;
+width: 22px;
+}
