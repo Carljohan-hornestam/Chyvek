@@ -91,4 +91,9 @@ body {
   width: auto;
 
 }
-
+.image-boringJobs{
+    position: relative;
+}
+#boring-jobs > img{
+    position: absolute;
+}
