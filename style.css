@@ -55,8 +55,12 @@ body {
     background-image: url("https://i.ytimg.com/vi/WCBEammPsu0/maxresdefault.jpg");
 }
 
+#inputCount{
+    display: inline-block;
+    width: 5em;
+}
 
-#package-form{
+#form-wrapper{
     width: 500px;
     border: 1px solid gray;
     border-radius: 14px;
