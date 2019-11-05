@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Business section</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="BootStrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+        <main>
+
+                <section class="container" id="form-wrapper">
+                    <section class="row">
+                        <section class="col">
+                            <h1>Order form</h1>
+                            <p></p>
+        
+                        </section>
+        
+                    </section>
+                    <form class="row">
+                        <div class="form-group col-12">
+        
+                            <label for="inputName">Name:</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Enter Name"></div>
+        
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="inputEmail">Email address:</label>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="inputPhone">Phone number:</label>
+                            <input type="tel" class="form-control" id="inputPhone" placeholder="Phone number">
+                        </div>
+                        <div class="form-group col-12 d-flex flex-column">
+                            <label for="inputCount">Quantity (between 1 and 5):</label>
+                            <input type="number" id="inputCount" class="form-control" name="quantity" min="1" max="5">
+                            <small>More than 5? Please contact us on 020-432890</small>
+                        </div>
+                        <div class="form-group col-12">
+                            <div>
+                                    <div class="form-check-inline">
+                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                                value="option1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                    💎  Diamond
+                                            </label>
+                                        </div>
+                                        <div class="form-check-inline">
+                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                                value="option2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                    🥇  Gold
+                                            </label>
+                                        </div>
+                                        <div class="form-check-inline">
+                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                                                value="option3">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                    🥈  Silver
+                                            </label>
+                                        </div>
+                                       
+                            </div>
+                            <small>Uncertain? <a href="packages.html" target="_blank">Packages</small>
+                            
+                        </div>
+                        <div class="form-group col-12 d-flex justify-content-around">
+        
+                            <div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+        
+                        </div>
+        
+                    </form>
+                </section>
+            </main>
+
+        <footer>
+                <section class="container-fluid">
+                    <section class="row">
+                        <div class="col-12">
+                                <p>Our partners:</p>
+                        </div>
+                        <div class="col footer-sponsors d-flex justify-content-around">
+                            <img src="images/sponsor1.png" alt="">
+                            <img src="images/sponsor2.png" alt="">
+                            <img src="images/sponsor3.png" alt="">
+                            <img src="images/sponsor4.png" alt="">
+                            <img src="images/sponsor5.png" alt="">
+                        </div>
+                    </section>
+                </section>
+            </footer>
+</body>
+</html>
