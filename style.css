@@ -48,6 +48,12 @@ body {
     max-height: 3em;
     width: auto;
 }
+#icons{
+    font-size: 200%;
+    padding-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
 
 #motspeach{
     min-height: 70vh;
@@ -112,6 +118,7 @@ width: 22px;
 .image-boringJobs{
     position: relative;
 }
-#boring-jobs > img{
+.image-boringJobs  img{
     position: absolute;
 }
+
