@@ -3,3 +3,28 @@
     min-width: 70vh;
     background-image: url("https://i.ytimg.com/vi/WCBEammPsu0/maxresdefault.jpg");
 }
+#silverpackage{
+    color: silver;
+    text-align: center;
+}
+#goldpackage{
+    color: gold;
+    text-align: center;
+}
+#diamondpackage{
+    color: lightblue;
+    text-align: center;
+    padding-top: 1em;
+}
+#includedtext{
+    text-align: center;
+}
+#packages{
+    border: 1px solid black;
+}
+#benjitext{
+    text-align: center;
+}
+#worstjobtext{
+    text-align: center;
+}
