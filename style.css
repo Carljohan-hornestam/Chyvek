@@ -61,7 +61,9 @@ body {
   width: auto;
 
 }
-#boring-jobs{
-    width: 100%;
+.image-boringJobs{
+    position: relative;
 }
-
+#boring-jobs > img{
+    position: absolute;
+}
