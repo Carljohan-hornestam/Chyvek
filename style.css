@@ -146,6 +146,9 @@ width: 22px;
 
 }
 
+.giphy-embed{
+    width: 50%;
+}
 .intro-pic {
 height: 267px;
 width: 360px;
