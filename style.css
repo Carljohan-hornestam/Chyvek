@@ -89,7 +89,6 @@ width: 22px;
 #diamondpackage{
     color: lightblue;
     text-align: center;
-    padding-top: 1em;
 }
 #includedtext{
     text-align: center;
@@ -103,15 +102,9 @@ width: 22px;
 #worstjobtext{
     text-align: center;
 }
-#whatisthis{
-   min-height: 50vh;
-    background-image: url(https://www.fearlessmotivation.com/wp-content/uploads/2016/03/faith-motivational-speech-750x400.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .img-success img{
   max-height: 6em;
+  width: auto;
   
 
 }
@@ -121,6 +114,16 @@ width: 22px;
 .image-boringJobs  img{
     position: absolute;
 }
+#welcome{
+    text-align: center;
+    color: black;
+}
+#beforewhileafter{
+    text-align: center;
+}
+
+
+
 
 
 
@@ -145,4 +148,9 @@ width: 22px;
 
 .giphy-embed{
     width: 50%;
+}
+.intro-pic {
+height: 267px;
+width: 360px;
+
 }
