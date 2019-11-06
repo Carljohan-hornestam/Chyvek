@@ -42,7 +42,14 @@ body {
     justify-content: center;
     background-color: transparent;
 }
-
+#left-arrow{
+    align-self: center;
+    cursor: pointer;
+}
+#right-arrow{
+    align-self: center;
+    cursor: pointer;
+}
 
 .footer-sponsors img{
     max-height: 3em;
@@ -70,8 +77,7 @@ body {
     width: 500px;
     border: 1px solid gray;
     border-radius: 14px;
-    background-color: whitesmoke;
-    
+    background-color: whitesmoke; 
 }
 
 #package-form img{
@@ -89,7 +95,6 @@ width: 22px;
 #diamondpackage{
     color: lightblue;
     text-align: center;
-    padding-top: 1em;
 }
 #includedtext{
     text-align: center;
@@ -103,16 +108,10 @@ width: 22px;
 #worstjobtext{
     text-align: center;
 }
-#whatisthis{
-   min-height: 50vh;
-    background-image: url(https://www.fearlessmotivation.com/wp-content/uploads/2016/03/faith-motivational-speech-750x400.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .img-success img{
   max-height: 6em;
   width: auto;
+  
 
 }
 .image-boringJobs{
@@ -128,4 +127,43 @@ width: 22px;
     
   }
   
+#welcome{
+    text-align: center;
+    color: black;
+}
+#beforewhileafter{
+    text-align: center;
+}
+#img-success-row{
+    padding: 30px;
+}
 
+.col1 {
+    float:left; 
+    width:100px;
+}
+
+.col2 {
+    float:left; 
+    width:500px; 
+    margin-left:50px;
+    margin-top: 30px
+}
+
+
+
+.giphy-embed{
+    width: 50%;
+}
+.intro-pic {
+height: 267px;
+width: 360px;
+
+}
+section#front-page.container{
+    background-image: url(https://s3.amazonaws.com/media.eremedia.com/wp-content/uploads/2018/01/09130943/happy-business-people-in-suits.jpg);
+    background-size: cover;
+    height: 70vh;
+    opacity: 0.9;
+    
+}
