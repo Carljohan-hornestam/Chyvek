@@ -154,3 +154,10 @@ height: 267px;
 width: 360px;
 
 }
+section#front-page.container{
+    background-image: url(https://s3.amazonaws.com/media.eremedia.com/wp-content/uploads/2018/01/09130943/happy-business-people-in-suits.jpg);
+    background-size: cover;
+    height: 70vh;
+    opacity: 0.9;
+    
+}
