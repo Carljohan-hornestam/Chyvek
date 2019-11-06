@@ -1,9 +1,109 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    /* 0.6 is opacity */
+body {
+    background-image: url(images/sony_one_job.jpg.optimal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+  }
+
+.logo {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title {
+    align-items: center;
+    display:flex;
+    padding: 0;
+}
+
+.row-first {
+    justify-content: center;
+}
+
+.second {
+    justify-content: center;
+    display:flex;
+}
+
+.row-second {
+    padding-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+
 .footer-sponsors img{
     max-height: 3em;
     width: auto;
 }
+#icons{
+    font-size: 200%;
+    padding-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
 
 #motspeach{
+    min-height: 70vh;
+    min-width: 70vh;
+    background-image: url("https://i.ytimg.com/vi/WCBEammPsu0/maxresdefault.jpg");
+}
+
+#inputCount{
+    display: inline-block;
+    width: 5em;
+}
+
+#form-wrapper{
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 14px;
+    background-color: whitesmoke;
+    
+}
+
+#package-form img{
+height: 22px;
+width: 22px;
+}
+#silverpackage{
+    color: silver;
+    text-align: center;
+}
+#goldpackage{
+    color: gold;
+    text-align: center;
+}
+#diamondpackage{
+    color: lightblue;
+    text-align: center;
+    padding-top: 1em;
+}
+#includedtext{
+    text-align: center;
+}
+#packages{
+    border: 1px solid black;
+}
+#benjitext{
+    text-align: center;
+}
+#worstjobtext{
+    text-align: center;
+}
+#whatisthis{
    min-height: 50vh;
     background-image: url(https://www.fearlessmotivation.com/wp-content/uploads/2016/03/faith-motivational-speech-750x400.jpg);
     background-position: center;
@@ -14,6 +114,12 @@
   max-height: 6em;
   
 
+}
+.image-boringJobs{
+    position: relative;
+}
+.image-boringJobs  img{
+    position: absolute;
 }
 
 
