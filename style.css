@@ -42,7 +42,14 @@ body {
     justify-content: center;
     background-color: transparent;
 }
-
+#left-arrow{
+    align-self: center;
+    cursor: pointer;
+}
+#right-arrow{
+    align-self: center;
+    cursor: pointer;
+}
 
 .footer-sponsors img{
     max-height: 3em;
@@ -70,8 +77,7 @@ body {
     width: 500px;
     border: 1px solid gray;
     border-radius: 14px;
-    background-color: whitesmoke;
-    
+    background-color: whitesmoke; 
 }
 
 #package-form img{
@@ -121,21 +127,13 @@ width: 22px;
 #beforewhileafter{
     text-align: center;
 }
-
-
-
-
-
-
 #img-success-row{
     padding: 30px;
-  
 }
 
 .col1 {
     float:left; 
     width:100px;
-    
 }
 
 .col2 {
@@ -143,5 +141,4 @@ width: 22px;
     width:500px; 
     margin-left:50px;
     margin-top: 30px
-
 }
