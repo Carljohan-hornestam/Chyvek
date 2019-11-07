@@ -114,12 +114,6 @@ width: 22px;
   
 
 }
-.image-boringJobs{
-    position: relative;
-}
-.image-boringJobs  img{
-    position: absolute;
-}
 .carousel-inner > .carousel-item > img,
   .carousel-inner > .carousel-item > a > img {
     height: 70vh;
