@@ -171,40 +171,52 @@ a:hover {
     border-radius: 14px;
     background-color: whitesmoke; 
 }
-
 #package-form img{
 height: 22px;
 width: 22px;
 }
-#silverpackage{
-    color: silver;
+#silverpackagetext{
+    color: darkslategrey;
     text-align: center;
+    font-weight: 800;
 }
 #goldpackage{
     color: gold;
     text-align: center;
+    font-weight: 800;
 }
 #diamondpackage{
-    color: lightblue;
+    color: darkturquoise;
     text-align: center;
+    font-weight: 800;
 }
 #includedtext{
     text-align: center;
+    font-size: 80%;
 }
 #packages{
     border: 1px solid black;
+}
+#package-icon{
+    font-size: 1000%;
+}
+#silver-package{
+    border: 1px solid black;
+}
+#package-img{
+    width: 350px;
+    height: 280px;
 }
 #benjitext{
     text-align: center;
 }
 #worstjobtext{
     text-align: center;
+    font-size: 80%;
 }
 .img-success img{
   max-height: 6em;
   width: auto;
-  
-
 }
 .carousel-inner > .carousel-item > img,
   .carousel-inner > .carousel-item > a > img {
