@@ -126,21 +126,6 @@ width: 22px;
 #worstjobtext{
     text-align: center;
 }
-#before-img{
-    width: 25vw;
-    height: 45vh;
-    padding-bottom: 1em;
-}
-#while-img{
-    width: 25vw;
-    height: 45vh;
-    padding-bottom: 1em;
-}
-#after-img{
-    width: 25vw;
-    height: 45vh;
-    padding-bottom: 1em;
-}
 .img-success img{
   max-height: 6em;
   width: auto;
@@ -160,6 +145,9 @@ width: 22px;
 }
 #beforewhileafter{
     text-align: center;
+}
+#gallery-img{
+    padding-bottom: 1em;
 }
 #img-success-row{
     padding: 30px;
