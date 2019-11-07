@@ -296,6 +296,28 @@ section#front-page.container{
     width: 180px;
 }
 
+.btn {
+    border-radius: 17px;
+    color: rgb(255, 255, 255);
+   background-color:  rgb(32, 137, 151);
+   border-color:  rgb(32, 137, 151);
+   color: rgb(255, 255, 255);
+   border-width: 2px;
+   width: 200px;
+   font-size: 20px;
+   font-family: 'Raleway', sans-serif;
+   text-shadow: white 0px 0px 20px;
+  
+ }
+   
+  
+.btn:hover{
+    background-image:none;
+    background-color: transparent;
+    border-color: rgb(32, 137, 151);
+    color: rgb(32, 137, 151);
+}
+
 
 
  
