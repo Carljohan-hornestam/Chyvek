@@ -5,9 +5,20 @@
 
 h1, h2, a, p {
     font-family: 'Brandon', Helvetica, Arial, sans-serif;
-    text-shadow: 0 1px 3px rgba(0,0,0,.25);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
     font-weight: 600;
     font-size: 1em;
+
+}
+
+h1 {
+    font-family: 'Brandon',Helvetica,Arial,sans-serif;
+    letter-spacing: .125em;
+    font-size: 42px;
+    line-height: 38px;
+    font-style: normal;
+    font-weight: 600;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 h2 {
@@ -100,7 +111,23 @@ a:hover {
     cursor: pointer;
 }
 
+.frontpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.fp-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.fp-bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
 
 .footer-sponsors img{
     max-height: 3em;
@@ -152,6 +179,7 @@ a:hover {
     border: 1px solid gray;
     border-radius: 14px;
     background-color: whitesmoke; 
+    margin: 3em auto;
 }
 #package-form img{
 height: 22px;
@@ -221,6 +249,11 @@ width: 22px;
     padding: 30px;
 }
 
+#packageIcon{
+    font-size: 500%;
+    font-style: normal;
+}
+
 .col1 {
     float:left; 
     width:100px;
@@ -277,4 +310,37 @@ section#front-page.container{
     height: 180px;
     width: 180px;
 }
+
+.btn {
+    border-radius: 17px;
+    color: rgb(255, 255, 255);
+   background-color:  rgb(32, 137, 151);
+   border-color:  rgb(32, 137, 151);
+   color: rgb(255, 255, 255);
+   border-width: 2px;
+   width: 200px;
+   font-size: 20px;
+   font-family: 'Raleway', sans-serif;
+   text-shadow: white 0px 0px 20px;
+  
+ }
+  
+.btn:hover{
+    background-image:none;
+    background-color: transparent;
+    border-color: rgb(32, 137, 151);
+    color: rgb(32, 137, 151);
+}
+/*
+.hidden-text {
+    display: none;
+}
+*/
+ 
+
+
+ 
+
+
+
 
