@@ -3,13 +3,31 @@
     box-sizing: border-box;
 }
 
-    /* 0.6 is opacity */
+span {
+    font-family: 'Brandon', Helvetica, Arial, sans-serif;
+    letter-spacing: 10px;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    font-weight: 600;
+    font-size: 2em;
+}
+
+h1, a {
+    font-family: 'Brandon', Helvetica, Arial, sans-serif;
+    text-shadow: 0 1px 3px rgba(0,0,0,.4);
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    /* 0.6 is opacity
+    background-size: cover; scales the background image to be as large as possible */
+  
 body {
     background-image: url(images/sony_one_job.jpg.optimal.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
+    background-size: cover;
   }
 
 .logo {
@@ -129,12 +147,13 @@ width: 22px;
   
 
 }
-.image-boringJobs{
-    position: relative;
-}
-.image-boringJobs  img{
-    position: absolute;
-}
+.carousel-inner > .carousel-item > img,
+  .carousel-inner > .carousel-item > a > img {
+    height: 70vh;
+    margin: auto;
+    
+  }
+  
 #welcome{
     text-align: center;
     color: black;
@@ -167,4 +186,11 @@ width: 22px;
 height: 267px;
 width: 360px;
 
+}
+section#front-page.container{
+    background-image: url(https://s3.amazonaws.com/media.eremedia.com/wp-content/uploads/2018/01/09130943/happy-business-people-in-suits.jpg);
+    background-size: cover;
+    height: 70vh;
+    opacity: 0.9;
+    
 }
