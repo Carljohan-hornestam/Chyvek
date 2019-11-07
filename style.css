@@ -132,6 +132,11 @@ width: 22px;
   
 }
 
+#packageIcon{
+    font-size: 500%;
+    font-style: normal;
+}
+
 .col1 {
     float:left; 
     width:100px;

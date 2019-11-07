@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="BootStrap/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/2c5ecc5da6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="packages.js"></script>
     <title>Packages</title>
 </head>
 
@@ -137,6 +139,7 @@
         </section>
 
 
+
         <section class="container" id="form-wrapper">
             <section class="row">
                 <section class="col">
@@ -168,7 +171,7 @@
                     </div>
                     <div class="col d-flex flex-column align-items-center"> <label for="happyRange">Do the subject
                             flow with positive energy?</label>
-                        <input type="range" class="form-control-range" id="happyRange"></div>
+                        <input type="range" min="0" max="100" class="form-control-range" id="happyRange"></div>
                     <div class="range-end d-flex flex-column align-items-center"><small>Not enough</small>
                         <img src="images/smiley2.png" alt="">
                     </div>
@@ -179,7 +182,7 @@
                     </div>
                     <div class="col d-flex flex-column align-items-center">
                         <label for="respectRange">Do you get the respect you deserve?</label>
-                        <input type="range" class="form-control-range" id="respectRange">
+                        <input type="range" min="0" max="100" class="form-control-range" id="respectRange">
                     </div>
                     <div class="range-end d-flex flex-column align-items-center"><small>Not enough</small>
                         <img src="images/smiley2.png" alt="">
@@ -191,7 +194,7 @@
                     </div>
                     <div class="col d-flex flex-column align-items-center">
                         <label for="satisfiedRange">How satisfied are you with their effort?</label>
-                        <input type="range" class="form-control-range" id="satisfiedRange">
+                        <input type="range" min="0" max="100" class="form-control-range" id="satisfiedRange">
                     </div>
                     <div class="range-end d-flex flex-column align-items-center"><small>Not enough</small>
                         <img src="images/smiley2.png" alt="">
@@ -199,15 +202,24 @@
                 </div>
                 <div class="form-group col-12 d-flex justify-content-around">
 
-                    <div class="form-check"> <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Contact me</label></div>
+                    <div class="form-check d-flex flex-column">
+                        <div>
+                            <input type="checkbox" class="form-check-input" id="request-contact">
+                        <label class="form-check-label" for="request-contact">Contact me</label>
+                        </div>
+                        
+                        <small>24 hour by e-mail</small></div>
                     <div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-primary" id="submit-button">Submit</button>
                     </div>
 
                 </div>
 
             </form>
+            <article class="row-12 d-flex flex-column justify-content-between align-content-center"
+                style="display: none" id="form-answer">
+
+            </article>
         </section>
 
 
