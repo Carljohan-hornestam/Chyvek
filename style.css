@@ -3,19 +3,25 @@
     box-sizing: border-box;
 }
 
-span {
+h1, h2, a, p {
     font-family: 'Brandon', Helvetica, Arial, sans-serif;
+    text-shadow: 0 1px 3px rgba(0,0,0,.2);
+    font-weight: 600;
+    font-size: 1em;
+}
+
+h2 {
     letter-spacing: 10px;
-    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    text-shadow: 0 1px 3px rgba(0,0,0,.3);
     font-weight: 600;
     font-size: 2em;
 }
 
-h1, a {
+h5 {
     font-family: 'Brandon', Helvetica, Arial, sans-serif;
-    text-shadow: 0 1px 3px rgba(0,0,0,.4);
-    font-weight: 600;
-    font-size: 1em;
+    font-weight: 400;
+    font-size: 1.5rem;
+
 }
 
     /* 0.6 is opacity
@@ -29,6 +35,11 @@ body {
     background-blend-mode: lighten;
     background-size: cover;
   }
+
+a:hover {
+    border-bottom: 1px;
+    background-color: white;
+}
 
 .logo {
     padding: 0;
@@ -69,15 +80,42 @@ body {
     cursor: pointer;
 }
 
+
+
 .footer-sponsors img{
     max-height: 3em;
     width: auto;
 }
 #icons{
-    font-size: 200%;
+    font-size: 150%;
     padding-top: 2em;
     padding-right: 1em;
     padding-left: 1em;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #efefef;
+    margin: 5vh 0 0 0;
+    height: 20vh;
+}
+
+.ft-top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45vw;
+    margin: 2vh 0;
+}
+
+.footer-sponsors {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#icons {
+    margin: 0 4px;
+    padding: 0;
 }
 
 #motspeach{
@@ -133,6 +171,7 @@ width: 22px;
   
 
 }
+
 .image-boringJobs{
     position: relative;
 }
