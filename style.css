@@ -100,7 +100,22 @@ a:hover {
     cursor: pointer;
 }
 
+.frontpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.fp-top {
+    display: flex;
+    justify-content: center;
+}
+
+.fp-bottom {
+    display: flex;
+    justify-content: space-around;
+    
+}
 
 .footer-sponsors img{
     max-height: 3em;
