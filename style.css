@@ -5,9 +5,20 @@
 
 h1, h2, a, p {
     font-family: 'Brandon', Helvetica, Arial, sans-serif;
-    text-shadow: 0 1px 3px rgba(0,0,0,.25);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
     font-weight: 600;
     font-size: 1em;
+
+}
+
+h1 {
+    font-family: 'Brandon',Helvetica,Arial,sans-serif;
+    letter-spacing: .125em;
+    font-size: 42px;
+    line-height: 38px;
+    font-style: normal;
+    font-weight: 600;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 h2 {
@@ -109,12 +120,13 @@ a:hover {
 .fp-top {
     display: flex;
     justify-content: center;
+    margin-top: 16px;
 }
 
 .fp-bottom {
     display: flex;
     justify-content: space-around;
-    
+    margin-bottom: 16px;
 }
 
 .footer-sponsors img{
@@ -158,6 +170,7 @@ a:hover {
     min-width: 70vh;
     background-image: url("https://i.ytimg.com/vi/WCBEammPsu0/maxresdefault.jpg");
     background-size: cover;
+
 }
 
 #inputCount{
