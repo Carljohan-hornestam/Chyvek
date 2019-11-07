@@ -179,3 +179,19 @@ section#front-page.container{
     opacity: 0.9;
     
 }
+/*.carousel-item > img{
+    position: relative;
+}*/
+.caousel-caption{
+    padding-bottom: 5px;
+}
+.carousel-item > p {
+    width: 50%;
+    margin:  0 auto;
+}
+.carousel-item > .caousel-caption{
+    padding-bottom: 10px;
+}
+.carousel-inner{
+    padding-bottom: 40px;
+}
