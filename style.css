@@ -84,6 +84,7 @@ body {
     min-height: 70vh;
     min-width: 70vh;
     background-image: url("https://i.ytimg.com/vi/WCBEammPsu0/maxresdefault.jpg");
+    background-size: cover;
 }
 
 #inputCount{
