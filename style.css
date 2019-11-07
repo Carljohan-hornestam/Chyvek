@@ -327,7 +327,6 @@ section#front-page.container{
    text-shadow: white 0px 0px 20px;
   
  }
-   
   
 .btn:hover{
     background-image:none;
@@ -335,9 +334,11 @@ section#front-page.container{
     border-color: rgb(32, 137, 151);
     color: rgb(32, 137, 151);
 }
-
-
-
+/*
+.hidden-text {
+    display: none;
+}
+*/
  
 
 
