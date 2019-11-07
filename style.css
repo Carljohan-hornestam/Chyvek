@@ -5,16 +5,19 @@
 
 h1, h2, a, p {
     font-family: 'Brandon', Helvetica, Arial, sans-serif;
-    text-shadow: 0 1px 3px rgba(0,0,0,.2);
+    text-shadow: 0 1px 3px rgba(0,0,0,.25);
     font-weight: 600;
     font-size: 1em;
 }
 
 h2 {
-    letter-spacing: 4px;
-    text-shadow: 0 1px 3px rgba(0,0,0,.3);
+    font-family: 'Brandon',Helvetica,Arial,sans-serif;
+    letter-spacing: .125em;
+    font-size: 32px;
+    line-height: 38px;
+    font-style: normal;
     font-weight: 600;
-    font-size: 2em;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 h5 {
@@ -40,6 +43,12 @@ body {
     background-size: cover;
   }
 
+/* Adding a bottom border to nav links without pushing down its parent */
+nav li a {
+    border-bottom: 3px solid transparent; 
+}
+
+/* Displaying a bottom border while hovering the navbar */
 a:hover {
     border-bottom: 1px solid white;
     transition: .25s linear;
@@ -47,7 +56,6 @@ a:hover {
 
 .nav-link {
     padding: 0;
-    
 }
 
 .logo {
