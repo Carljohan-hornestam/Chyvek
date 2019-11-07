@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,10 @@
     <title>Chyvek</title>
     <script defer src="main.js"></script>
     <link rel="stylesheet" href="BootStrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/2c5ecc5da6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     
     <header>
@@ -24,56 +27,86 @@
                 </section>
                 <section class="row row-second">
                     <section class="col second">
+<<<<<<< HEAD
                             <span>Could Have Been Better</span>
+=======
+                        <p class="lead slogan-text">It could have been worse</p>
+
+>>>>>>> 8473fa100b414cc7c205ab5f96468ee3851c277b
                     </section>
                 </section>
             </section>
         </section>
         <nav class="navbar navbar-expand-sm navbar-light">
             <ul class="navbar-nav">
+                    <i class="fas fa-arrow-left" id="left-arrow"></i>
                 <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="about.html">About us</a>
+                    <a class="nav-link" href="about.html">About us</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="aditional-service.html">Additional Service</a>
+                    <a class="nav-link" href="aditional-service.html">Additional Service</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
+                    <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="motivational-speeches.html">Motivational Speeches</a>
+                    <a class="nav-link" href="motivational-speeches.html">Motivational Speeches</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="packages.html">Packages</a>
+                    <a class="nav-link" href="packages.html">Packages</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="success-stories.html">Success Stories</a>
+                    <a class="nav-link" href="success-stories.html">Success Stories</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="top10jobs.html">Top 10 Boring Jobs</a>
+                    <a class="nav-link" href="top10jobs.html">Top 10 Boring Jobs</a>
                 </li>
+                <i class="fas fa-arrow-right" id="right-arrow"></i>
             </ul>
-        </nav>     
+        </nav>
     </header>
+
+    <main>
+
+        <section class="container" id="front-page">
+            <div class="row d-flex justify-content-around">
+                    <button type="button col" class="btn btn-primary" onclick="window.location.href='school.html'">School</button>
+                    <button type="button col" class="btn btn-primary" onclick="window.location.href='business.html'">Business</button>
+            </div>
+            <div class="column d-flex justify-content-center">
+               <h2>Motivation comes from within</h2> 
+            </div>
+        </section>
+    </main>
 
     <footer>
         <section class="container-fluid">
             <section class="row">
                 <div class="col-12">
-                        <p>Our partners:</p>
+                    <p>Our partners:</p>
                 </div>
                 <div class="col footer-sponsors d-flex justify-content-around">
-                    <img src="/images/sponsor1.png" alt="">
-                    <img src="/images/sponsor2.png" alt="">
-                    <img src="/images/sponsor3.png" alt="">
-                    <img src="/images/sponsor4.png" alt="">
-                    <img src="/images/sponsor5.png" alt="">
+                    <img src="images/sponsor1.png" alt="">
+                    <img src="images/sponsor2.png" alt="">
+                    <img src="images/sponsor3.png" alt="">
+                    <img src="images/sponsor4.png" alt="">
+                    <img src="images/sponsor5.png" alt="">
                 </div>
             </section>
         </section>
+        <main class="container">
+            <section class="row">
+                <div class="col d-flex justify-content-center">
+                    <i class="fab fa-facebook" id="icons"></i>
+                    <i class="fab fa-instagram" id="icons"></i>
+                    <i class="fab fa-twitter" id="icons"></i>
+                </div>
+            </section>
+        </main>
     </footer>
 </body>
+
 </html>
