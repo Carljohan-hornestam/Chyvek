@@ -3,19 +3,32 @@
     box-sizing: border-box;
 }
 
-span {
+h1, h2, a, p {
     font-family: 'Brandon', Helvetica, Arial, sans-serif;
-    letter-spacing: 10px;
-    text-shadow: 0 1px 3px rgba(0,0,0,.5);
-    font-weight: 600;
-    font-size: 2em;
-}
-
-h1, a {
-    font-family: 'Brandon', Helvetica, Arial, sans-serif;
-    text-shadow: 0 1px 3px rgba(0,0,0,.4);
+    text-shadow: 0 1px 3px rgba(0,0,0,.25);
     font-weight: 600;
     font-size: 1em;
+}
+
+h2 {
+    font-family: 'Brandon',Helvetica,Arial,sans-serif;
+    letter-spacing: .125em;
+    font-size: 32px;
+    line-height: 38px;
+    font-style: normal;
+    font-weight: 600;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+h5 {
+    font-family: 'Brandon', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+
+a {
+    padding: 0;
 }
 
     /* 0.6 is opacity
@@ -29,6 +42,21 @@ body {
     background-blend-mode: lighten;
     background-size: cover;
   }
+
+/* Adding a bottom border to nav links without pushing down its parent */
+nav li a {
+    border-bottom: 3px solid transparent; 
+}
+
+/* Displaying a bottom border while hovering the navbar */
+a:hover {
+    border-bottom: 1px solid white;
+    transition: .25s linear;
+}
+
+.nav-link {
+    padding: 0;
+}
 
 .logo {
     padding: 0;
@@ -59,14 +87,34 @@ body {
     display: flex;
     justify-content: center;
     background-color: transparent;
+    margin-bottom: 20px;
 }
+
 #left-arrow{
     align-self: center;
     cursor: pointer;
 }
+
 #right-arrow{
     align-self: center;
     cursor: pointer;
+}
+
+.frontpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fp-top {
+    display: flex;
+    justify-content: center;
+}
+
+.fp-bottom {
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 .footer-sponsors img{
@@ -74,16 +122,42 @@ body {
     width: auto;
 }
 #icons{
-    font-size: 200%;
+    font-size: 150%;
     padding-top: 2em;
     padding-right: 1em;
     padding-left: 1em;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #efefef;
+    margin: 5vh 0 0 0;
+    height: 20vh;
+}
+
+.ft-top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45vw;
+    margin: 2vh 0;
+}
+
+.footer-sponsors {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#icons {
+    margin: 0 4px;
+    padding: 0;
 }
 
 #motspeach{
     min-height: 70vh;
     min-width: 70vh;
     background-image: url("https://i.ytimg.com/vi/WCBEammPsu0/maxresdefault.jpg");
+    background-size: cover;
 }
 
 #inputCount{
@@ -97,55 +171,52 @@ body {
     border-radius: 14px;
     background-color: whitesmoke; 
 }
-
 #package-form img{
 height: 22px;
 width: 22px;
 }
-#silverpackage{
-    color: silver;
+#silverpackagetext{
+    color: darkslategrey;
     text-align: center;
+    font-weight: 800;
 }
 #goldpackage{
     color: gold;
     text-align: center;
+    font-weight: 800;
 }
 #diamondpackage{
-    color: lightblue;
+    color: darkturquoise;
     text-align: center;
+    font-weight: 800;
 }
 #includedtext{
     text-align: center;
+    font-size: 80%;
 }
 #packages{
     border: 1px solid black;
+}
+#package-icon{
+    font-size: 1000%;
+}
+#silver-package{
+    border: 1px solid black;
+}
+#package-img{
+    width: 350px;
+    height: 280px;
 }
 #benjitext{
     text-align: center;
 }
 #worstjobtext{
     text-align: center;
-}
-#before-img{
-    width: 25vw;
-    height: 45vh;
-    padding-bottom: 1em;
-}
-#while-img{
-    width: 25vw;
-    height: 45vh;
-    padding-bottom: 1em;
-}
-#after-img{
-    width: 25vw;
-    height: 45vh;
-    padding-bottom: 1em;
+    font-size: 80%;
 }
 .img-success img{
   max-height: 6em;
   width: auto;
-  
-
 }
 .carousel-inner > .carousel-item > img,
   .carousel-inner > .carousel-item > a > img {
@@ -160,6 +231,9 @@ width: 22px;
 }
 #beforewhileafter{
     text-align: center;
+}
+#gallery-img{
+    padding-bottom: 1em;
 }
 #img-success-row{
     padding: 30px;
@@ -192,6 +266,19 @@ section#front-page.container{
     height: 70vh;
     opacity: 0.9;
     
+}
+/*.carousel-item > img{
+    position: relative;
+}*/
+.caousel-caption{
+    padding-bottom: 5px;
+}
+.carousel-item > p {
+    width: 50%;
+    margin:  0 auto;
+}
+.carousel-inner{
+    padding-bottom: 40px;
 }
 
 .img1 {
