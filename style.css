@@ -163,7 +163,6 @@ width: 22px;
 }
 
 
-
 .giphy-embed{
     width: 50%;
 }
@@ -179,3 +178,19 @@ section#front-page.container{
     opacity: 0.9;
     
 }
+
+.img1 {
+    height: 180px;
+    width: 180px;
+}
+
+.img2{
+    height: 180px;
+    width: 180px;
+}
+
+.img3{
+    height: 180px;
+    width: 180px;
+}
+
