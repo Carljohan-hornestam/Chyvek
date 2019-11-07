@@ -170,6 +170,7 @@ a:hover {
     border: 1px solid gray;
     border-radius: 14px;
     background-color: whitesmoke; 
+    margin: 3em auto;
 }
 #package-form img{
 height: 22px;
