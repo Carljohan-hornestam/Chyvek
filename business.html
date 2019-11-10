@@ -1,4 +1,4 @@
-kk<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,42 +8,45 @@ kk<!DOCTYPE html>
     <title>Business section</title>
     <script defer src="main.js"></script>
     <link rel="stylesheet" href="BootStrap/css/bootstrap.min.css">
+    <script defer src="BootStrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <section class="container header-container">
-            <section class="container">
-                <section class="row row-first">
-                    <section class="col-4 logo">
-                        <img src="images/logo3.png">
-                    </section>
-                    <section class="col-4 title">
-                        <h1 class="display-4 headline">Chyvek</h1>
-                    </section>
-                </section>
-                <nav class="navbar navbar-expand-sm navbar-light">
+            <nav class="navbar navbar-expand-sm navbar-light">
                     <ul class="navbar-nav">
                         <i class="fas fa-arrow-left" id="left-arrow"></i>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
+                         <li class="nav-item dropdown d-flex flex-column align-items-center active">                   
+                                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                                                Home
+                                            </a>
+                                            <small id="sub-nav">Business</small>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="index.html">Main</a>
+                                <a class="dropdown-item" href="school.html">School</a>
+                            </div>
+                        </li>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="aditional-service.html">Additional Service</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="motivational-speeches.html">Motivational Speeches</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown">
+                                Our Services
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="packages.html">Our Packages</a>
+                                <a class="dropdown-item" href="motivational-speeches.html">Motivational Speeches</a>
+                                <a class="dropdown-item" href="aditional-service.html">Additional Service</a>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="packages.html">Packages</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="success-stories.html">Success Stories</a>
@@ -55,21 +58,6 @@ kk<!DOCTYPE html>
                     </ul>
                 </nav>
     </header>
-
-    <main>
-
-
-
-        <section class="row row-second">
-            <section class="col second">
-                <p class="lead slogan-text">Could have been better</p>
-
-            </section>
-        </section>
-        </section>
-        </section>
-
-        </header>
 
         <main>
             <div class="jumbotron jumbotron-fluid">
@@ -145,9 +133,10 @@ kk<!DOCTYPE html>
                 </section>
                 <form class="row">
                     <div class="form-group col-12">
-
+                        <div>
                         <label for="inputName">Name:</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="Enter Name"></div>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter Name">
+                    </div>
 
                     </div>
                     <div class="form-group col-12">
@@ -184,7 +173,7 @@ kk<!DOCTYPE html>
 
                                 <div>
                                     <button type="submit" class="btn btn-primary"
-                                        onclick=orderAccepted()>Submit</button>
+                                        onclick="orderAccepted()">Submit</button>
                                 </div>
 
                                 <div class="form-check-inline">
@@ -196,7 +185,7 @@ kk<!DOCTYPE html>
                                 </div>
 
                             </div>
-                            <small>Uncertain? <a href="packages.html" target="_blank">Packages</small>
+                            <small>Uncertain? <a href="packages.html">Packages</a></small>
 
                         </div>
                         <div class="form-group col-12 d-flex justify-content-around">
@@ -206,7 +195,7 @@ kk<!DOCTYPE html>
                             </div>
 
                         </div>
-
+                        </div>        
                 </form>
             </section>
         </main>
