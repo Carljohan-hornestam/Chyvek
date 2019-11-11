@@ -336,20 +336,19 @@ section#front-page.container{
 
 
 
-@media (max-width: 800px) {
-    .carousel-inner p{
-        width:80%
-    }
 
-} /* media query för ALLA footers */
-@media (max-width: 320px){
+ /* media query för ALLA footers */
+@media (max-width: 425px){
     
     .footer-sponsors{
-        font-size: 40%;
+        font-size: 55%;
         padding-top: 20px;
     }
     .packages-socialmedia{
         padding-bottom: 20px;
+    }
+    .intro-pic{
+        width: 100%;
     }
 }
 

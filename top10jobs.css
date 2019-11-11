@@ -16,6 +16,12 @@
     padding-bottom: 40px;
 }
 
+@media (max-width: 425px) {
+.carousel-item img{
+    width: 100%;
+}    
+}
+
 
 @media (max-width: 767px) {
     .carousel-inner p{
