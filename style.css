@@ -291,6 +291,7 @@ section#front-page.container{
     padding-bottom: 40px;
 }
 
+
 .img1 {
     height: 180px;
     width: 180px;
@@ -366,6 +367,11 @@ section#front-page.container{
 /*    .carousel-inner img{
         width: 100%;
     }*/
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 800px) {
@@ -375,6 +381,32 @@ section#front-page.container{
 
 }
 
+@media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 20px; 
+      padding-bottom: 25px; 
+    }
+}
+
+i
+{
+    padding-bottom: 25px;
+}
+  
+@media (max-width: 1400px) {
+    .carousel-control-next,
+    .carousel-control-prev {
+        filter: invert(100%);
+        font-size: larger;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 100px;
+        width: 100px;
+        background-size: 70%, 70%;
+        border-radius: 50%;
+/*        border: 1px solid black;*/
+    }
+}
 
  
 
