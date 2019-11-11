@@ -206,7 +206,7 @@ a:hover {
 }
 
 #form-wrapper{
-    width: 500px;
+    max-width: 500px;
     border: 1px solid gray;
     border-radius: 14px;
     background-color: whitesmoke; 
@@ -345,7 +345,7 @@ section#front-page.container{
 @media (max-width: 320px){
     
     .footer-sponsors{
-        font-size: 10%;
+        font-size: 40%;
         padding-top: 20px;
     }
     .packages-socialmedia{
