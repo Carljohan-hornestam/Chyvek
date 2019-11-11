@@ -59,15 +59,19 @@ nav li a {
     border-bottom: 3px solid transparent; 
 }
 
-/* Displaying a bottom border while hovering the navbar */
+/* Displaying a bottom border while hovering the navbar 
 a:hover {
     border-bottom: 1px solid black;
     transition: .25s linear;
 }
+*/
 
 .nav-link {
     padding: 0;
+    
 }
+
+
 
 .logo {
     padding: 0;
@@ -146,6 +150,10 @@ a:hover {
     background-color: #efefef;
     margin: 5vh 0 0 0;
     height: 20vh;
+}
+
+.footer:hover{
+    border-bottom:none;
 }
 
 .ft-top {
@@ -338,6 +346,15 @@ section#front-page.container{
     display: none;
 }
 */
+.btn-primary:active{
+    background-image:none;
+    background-color: transparent;
+    border-color: rgb(32, 137, 151);
+    color: rgb(32, 137, 151);
+
+}
+
+
 
 @media (max-width: 767px) {
     .carousel-inner p{
@@ -354,6 +371,10 @@ section#front-page.container{
     }
 
 }
+
+
+
+
 
 
 
