@@ -17,34 +17,40 @@
 <body>
     <header>
             <section class="container header-container">
-                    <section class="container">
-                        <section class="row row-first">
-                            <section class="col-4 logo">
+                    <section class="container d-flex flex-column align-items-center">
+                        <section class="row" id="nav-logo">
+                            <section class="col logo">
                                 <img src="images/logo3.png">
                             </section>
-                            <section class="col-4 title">
-                                <h1 class="headline">CHYVEK</h1>
+                            <section class="col d-flex align-items-center">
+                                <h1>CHYVEK</h1>
                             </section>
                         </section>
-                        <section class="row row-second">
-                            <section class="col second">
+                        <section class="row">
+                            <section class="col" id="nav-slogan">
                                 <h2>COULD HAVE BEEN WORSE</h2>
                             </section>
                         </section>
                     </section>
                 </section>
-        <nav class="navbar navbar-expand-sm navbar-light">
-            <ul class="navbar-nav">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <ul class="navbar-nav" id="nav-text">
 
                 <li class="nav-item ">
-                    <a class="nav-link disabled active">
-                        Home
-                    </a>
-                    <div class="navbar" id="sub-nav"> 
-                        <a class="nav-link" href="index.html">Main</a>
-                        <a class="nav-link disabled active" href="school.html">  School</a>
-                        <a class="nav-link" href="business.html">Business</a></div>
                     
+                        <a class="nav-link disabled active">
+                            Home
+                        </a>
+                    
+                    
+                        <div id="sub-nav" class="navbar">
+                            <a class="nav-link" href="index.html">Main</a>
+                            <a class="nav-link disabled active" href="school.html"> School</a>
+                            <a class="nav-link" href="business.html">Business</a>
+                        </div>
+                   
+
+
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About us</a>
@@ -78,13 +84,13 @@
         <div class="jumbotron jumbotron-fluid">
             <section class="container-fluid " id="introduction">
                 <article class="row d-flex justify-content-around">
-                    <div class="col-12 d-flex justify-content-around m-5">
+                    <div class="col-12 d-flex justify-content-around my-4">
                         <section class="row text-center">
-                            <section class="col-12 col-md-6 px-3">
-                                <div><img class="intro-pic" src="images/intro_school1.jpg" alt=""></div>
+                            <section class="col-12 col-md-6">
+                                <img class="intro-pic" src="images/intro_school1.jpg" alt="">
 
                             </section>
-                            <section class="col-12 col-md-6 px-3">
+                            <section class="col-12 col-md-6 px-5">
                                 <h2>What can we do for you?</h2>
                                 <p>Do you remember the good old days when the teachers were one of the most respectful
                                     jobs
@@ -106,9 +112,9 @@
 
                         </section>
                     </div>
-                    <div class="col-12 d-flex justify-content-around m-5">
+                    <div class="col-12 d-flex justify-content-around my-5">
                         <section class="row text-center">
-                            <section class=" col-12 col-md-6 px-3">
+                            <section class=" col-12 col-md-6 px-5">
                                 <h2>What to expect</h2>
                                 <p>Luckily with our service, we can restore balance to the classroom. By breaking down
                                     their
@@ -123,7 +129,7 @@
                                     for the most rotten apple.
                                 </p>
                             </section>
-                            <section class="col-12 col-md-6 px-3">
+                            <section class="col-12 col-md-6">
                                 <div> <img class="intro-pic" src="images/intro_school2.jpg" alt=""></div>
                             </section>
 
@@ -214,25 +220,26 @@
                     <p>Our partners:</p>
                 </div>
                 <div class="col footer-sponsors d-flex justify-content-around">
-                        <a href="https://www.mcdonalds.com/se/sv-se.html">
-                            <img src="images/sponsor1.png" alt="">
-                        </a>
-    
-                        <a href="http://www.donnastad.se/">
-                            <img src="images/sponsor2.png" alt="">
-                        </a>
-                        
-                        <a href="https://arbetsformedlingen.se/">
-                            <img src="images/sponsor3.png" alt="">
-                        </a>
-                        
-                        <a href="https://www.gotene.se/naringslivocharbete/natverkochnyhetsbrevforforetagare/naringslivsforeningen.7840.html">
-                            <img src="images/sponsor4.png" alt="">
-                        </a>
-                        
-                        <a href="https://www.munkfors.se/">
-                            <img src="images/sponsor5.png" alt="">
-                        </a>
+                    <a href="https://www.mcdonalds.com/se/sv-se.html">
+                        <img src="images/sponsor1.png" alt="">
+                    </a>
+
+                    <a href="http://www.donnastad.se/">
+                        <img src="images/sponsor2.png" alt="">
+                    </a>
+
+                    <a href="https://arbetsformedlingen.se/">
+                        <img src="images/sponsor3.png" alt="">
+                    </a>
+
+                    <a
+                        href="https://www.gotene.se/naringslivocharbete/natverkochnyhetsbrevforforetagare/naringslivsforeningen.7840.html">
+                        <img src="images/sponsor4.png" alt="">
+                    </a>
+
+                    <a href="https://www.munkfors.se/">
+                        <img src="images/sponsor5.png" alt="">
+                    </a>
                 </div>
             </section>
             <section class="container">
@@ -244,8 +251,8 @@
                     </div>
                 </section>
             </section>
-            </section>
-        </footer>
+        </section>
+    </footer>
 </body>
 
 </html>

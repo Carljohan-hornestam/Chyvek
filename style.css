@@ -12,12 +12,57 @@ h1, h2, a, p {
 }
 
 #sub-nav{
-    position: absolute;
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 5px;
+    background-color: rgba(245, 245, 245, 0.700);
+    border-radius: 7px;
+    margin-bottom: 1em;
+    
 }
+#nav-logo{
+       display: flex; 
+       flex-direction: column;
+}
+
+#nav-slogan > h2{
+    font-size: 75%;
+}
+
+#nav-text{
+    font-size: 150%;
+}
+
+@media screen and (min-width: 768px) {
+    #sub-nav{
+        position: absolute;
+        flex-direction: row;
+        margin: inherit;
+        padding: inherit;
+        background-color: transparent;
+    }
+
+    #nav-logo{
+        flex-direction: row;
+    }
+    #nav-slogan > h2{
+        font-size: 100%;
+    }
+
+    #nav-text{
+        font-size: 100%;
+    }
+    
+  }
+
 
 #sub-nav > a{
 font-size: 70%;
 }
+
 
 
 h1 {
@@ -88,24 +133,7 @@ a:hover {
     justify-content: flex-end;
 }
 
-.title {
-    align-items: center;
-    display:flex;
-    padding: 0;
-}
 
-.row-first {
-    justify-content: center;
-}
-
-.second {
-    justify-content: center;
-    display:flex;
-}
-
-.row-second {
-    padding-top: 20px;
-}
 
 .navbar {
     display: flex;
@@ -274,27 +302,6 @@ section#front-page.container{
     border-radius: 25px;
     
 }
-/*.carousel-item > img{
-    position: relative;
-}*/
-.carousel-inner > .carousel-item > img,
-  .carousel-inner > .carousel-item > a > img {
-    height: 70vh;
-    margin: auto;
-    
-  }
-
-.caousel-caption{
-    padding-bottom: 5px;
-}
-.carousel-item > p {
-    width: 60%;
-    margin: 0 auto;
-}
-.carousel-inner{
-    padding-bottom: 40px;
-}
-
 
 .img1 {
     height: 180px;
