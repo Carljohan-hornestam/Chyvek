@@ -1,0 +1,65 @@
+#silverpackagetext{
+    color: darkslategrey;
+    text-align: center;
+    font-weight: 800;
+}
+#goldpackagetext{
+    color: gold;
+    text-align: center;
+    font-weight: 800;
+}
+#diamondpackagetext{
+    color: darkturquoise;
+    text-align: center;
+    font-weight: 800;
+}
+.includedtext{
+    text-align: center;
+    font-size: 80%;
+}
+.package{
+    border: 1px solid black;
+}
+.package-icon{
+    font-size: 1000%;
+}
+.package-img{
+    width: 350px;
+    height: 280px;
+}
+.benjitext{
+    text-align: center;
+}
+.worstjobtext{
+    text-align: center;
+    font-size: 80%;
+}
+@media(max-width: 320px){
+    .packages{
+        padding-left: 50px;
+    }
+    #silverpackage{
+        width: 250px;
+    }
+    #goldpackage{
+        width: 250px;
+    }
+    #diamondpackage{
+        width: 250px;
+    }
+    #form-wrapper{
+        width: 250px;
+        margin-left: 0%;
+    }
+    #submit-button{
+        font-size: 90%;
+        width: 70px;
+    }
+    .footer-sponsors{
+        font-size: 10%;
+        padding-top: 20px;
+    }
+    .packages-socialmedia{
+        padding-bottom: 20px;
+    }
+}
