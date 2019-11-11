@@ -104,17 +104,6 @@ a:hover {
     background-color: transparent;
     margin-bottom: 20px;
 }
-
-#left-arrow{
-    align-self: center;
-    cursor: pointer;
-}
-
-#right-arrow{
-    align-self: center;
-    cursor: pointer;
-}
-
 .frontpage {
     display: flex;
     flex-direction: column;
@@ -137,7 +126,7 @@ a:hover {
     max-height: 3em;
     width: auto;
 }
-#icons{
+.icons{
     font-size: 150%;
     padding-top: 2em;
     padding-right: 1em;
@@ -167,12 +156,6 @@ a:hover {
     display: flex;
     justify-content: space-evenly;
 }
-
-#icons {
-    margin: 0 4px;
-    padding: 0;
-}
-
 #arnold{
     width: 100%;
 }
@@ -208,27 +191,27 @@ width: 22px;
     text-align: center;
     font-weight: 800;
 }
-#includedtext{
+.includedtext{
     text-align: center;
     font-size: 80%;
 }
-#packages{
+.packages{
     border: 1px solid black;
 }
-#package-icon{
+.package-icon{
     font-size: 1000%;
 }
 #silver-package{
     border: 1px solid black;
 }
-#package-img{
+.package-img{
     width: 350px;
     height: 280px;
 }
-#benjitext{
+.benjitext{
     text-align: center;
 }
-#worstjobtext{
+.worstjobtext{
     text-align: center;
     font-size: 80%;
 }
@@ -236,27 +219,19 @@ width: 22px;
   max-height: 6em;
   width: auto;
 }
-
-  
 #welcome{
     text-align: center;
     color: black;
 }
-#beforewhileafter{
+.beforewhileafter{
     text-align: center;
 }
-#gallery-img{
+.gallery-img{
     padding-bottom: 1em;
 }
 #img-success-row{
     padding: 30px;
 }
-
-#packageIcon{
-    font-size: 500%;
-    font-style: normal;
-}
-
 .col1 {
     float:left; 
     width:100px;
