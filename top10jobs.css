@@ -24,11 +24,7 @@
 /*    .carousel-inner img{
         width: 100%;
     }*/
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+    
 }
 
 @media (max-width: 800px) {
