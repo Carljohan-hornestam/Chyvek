@@ -148,6 +148,8 @@ a:hover {
     background-color: #efefef;
     margin: 5vh 0 0 0;
     height: 20vh;
+    
+    
 }
 
 .footer:hover{
@@ -167,6 +169,7 @@ a:hover {
 }
 #arnold{
     width: 100%;
+    border-radius: 25px;
 }
 
 #inputCount{
@@ -268,6 +271,7 @@ section#front-page.container{
     background-size: cover;
     height: 70vh;
     opacity: 0.9;
+    border-radius: 25px;
     
 }
 /*.carousel-item > img{
@@ -295,6 +299,7 @@ section#front-page.container{
 .img1 {
     height: 180px;
     width: 180px;
+    
 }
 
 .img2{
@@ -407,6 +412,8 @@ i
 /*        border: 1px solid black;*/
     }
 }
+
+
 
  
 
