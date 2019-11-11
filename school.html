@@ -6,108 +6,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>School section</title>
-    <script defer src="main.js"></script>
+    <script defer src="school.js"></script>
     <link rel="stylesheet" href="BootStrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/2c5ecc5da6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script defer src="BootStrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <ul class="navbar-nav">
+                <i class="fas fa-arrow-left" id="left-arrow"></i>
+                <li class="nav-item dropdown d-flex flex-column align-items-center active">                   
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                                    Home
+                                </a>
+                                <small id="sub-nav">School</small>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="index.html">Main</a>
+                        <a class="dropdown-item" href="business.html">Business</a>
+                    </div>
+                </li>
+                </li>
 
-        <header>
-                <section class="container header-container">
-                    <section class="container">
-                        <section class="row row-first">
-                            <section class="col-4 logo">
-                                <img src="images/logo3.png">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        Our Services
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="packages.html">Our Packages</a>
+                        <a class="dropdown-item" href="motivational-speeches.html">Motivational Speeches</a>
+                        <a class="dropdown-item" href="aditional-service.html">Additional Service</a>
+                    </div>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="success-stories.html">Success Stories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="top10jobs.html">Top 10 Boring Jobs</a>
+                </li>
+                <i class="fas fa-arrow-right" id="right-arrow"></i>
+            </ul>
+        </nav>
+    </header>
+    <main class="school-main">
+        <div class="jumbotron jumbotron-fluid">
+            <section class="container-fluid " id="introduction">
+                <article class="row d-flex justify-content-around">
+                    <div class="col-12 d-flex justify-content-around m-5">
+                        <section class="row text-center">
+                            <section class="col-12 col-md-6 px-3">
+                                <div><img class="intro-pic" src="images/intro_school1.jpg" alt=""></div>
+
                             </section>
-                            <section class="col-4 title">
-                                <h1 class="display-4 headline">Chyvek</h1>
-                            </section>
-                        </section>
-                        <section class="row row-second">
-                            <section class="col second">
-                                <p class="lead slogan-text">Could have been better</p>
-        
-                            </section>
-                        </section>
-                    </section>
-                </section>
-                <nav class="navbar navbar-expand-sm navbar-light">
-                    <ul class="navbar-nav">
-                            <i class="fas fa-arrow-left" id="left-arrow"></i>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="aditional-service.html">Additional Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="motivational-speeches.html">Motivational Speeches</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="packages.html">Packages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="success-stories.html">Success Stories</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="top10jobs.html">Top 10 Boring Jobs</a>
-                        </li>
-                        <i class="fas fa-arrow-right" id="right-arrow"></i>
-                    </ul>
-                </nav>
-            </header>
-    <main>
-            <div class="jumbotron jumbotron-fluid">
-            <section class="container" id="introduction">
-                    <article class="row">
-                        <div class="col-12 d-flex justify-content-around mt-5 mb-5">
-                            <div>
-                                <img class="intro-pic" src="images/intro_school1.jpg" alt="">
-                            </div>
-                            <div class="pl-3 pr-3">
+                            <section class="col-12 col-md-6 px-3">
                                 <h2>What can we do for you?</h2>
-                                <p>Do you remember the good old days when the teachers were one of the most respectful jobs you could have and any conflict with the student could be solved with beating and later on get thanks from their parents for lecturing them and guiding their child to the right path in life?
-                                        Now it isn't really like that and the consequences would probably be losing your job, jail time, getting some angry parents threatening you. 
-                                        Or maybe all three.
-                                        Which has made that the rotten apples in class now have free hands to do whatever they want and the classroom can more or less seem like a war field?
+                                <p>Do you remember the good old days when the teachers were one of the most respectful
+                                    jobs
+                                    you could have and any conflict with the student could be solved with beating and
+                                    later
+                                    on get thanks from their parents for lecturing them and guiding their child to the
+                                    right
+                                    path in life?
+                                    Now it isn't really like that and the consequences would probably be losing your
+                                    job,
+                                    jail time, getting some angry parents threatening you.
+                                    Or maybe all three.
+                                    Which has made that the rotten apples in class now have free hands to do whatever
+                                    they
+                                    want and the classroom can more or less seem like a war field?
                                 </p>
-                            </div>
-                        </div>
-                        <div class="col-12 d-flex justify-content-around  mt-5 mb-5">
-                            <div  class="pl-3 pr-3">
+
+                            </section>
+
+                        </section>
+                    </div>
+                    <div class="col-12 d-flex justify-content-around m-5">
+                        <section class="row text-center">
+                            <section class=" col-12 col-md-6 px-3">
                                 <h2>What to expect</h2>
-                                <p>Luckily with our service, we can restore balance to the classroom. By breaking down their brain psychologically like moshed potato and later on it is simple to mold it to a new personality that fits your preferences and creates a loyal bond that is thicker than blood.
-                                        You can expect that the student never will behave disorderly again, do their homework and excel in every aspect.  Our service is so successful that it works flawlessly even for the most rotten apple.
+                                <p>Luckily with our service, we can restore balance to the classroom. By breaking down
+                                    their
+                                    brain psychologically like moshed potato and later on it is simple to mold it to a
+                                    new
+                                    personality that fits your preferences and creates a loyal bond that is thicker than
+                                    blood.
+                                    You can expect that the student never will behave disorderly again, do their
+                                    homework
+                                    and excel in every aspect. Our service is so successful that it works flawlessly
+                                    even
+                                    for the most rotten apple.
                                 </p>
-                            </div>
-                            <div> <img class="intro-pic" src="images/intro_school2.jpg" alt=""></div>
-                        </div>
-        
-                    </article>
-                </section>
-            </div>
+                            </section>
+                            <section class="col-12 col-md-6 px-3">
+                                <div> <img class="intro-pic" src="images/intro_school2.jpg" alt=""></div>
+                            </section>
+
+                        </section>
+                    </div>
+
+                </article>
+            </section>
+        </div>
 
         <section class="container" id="form-wrapper">
             <section class="row">
                 <section class="col">
                     <h1>Order form</h1>
                     <p></p>
-
                 </section>
 
             </section>
             <form class="row">
                 <div class="form-group col-12">
 
-                    <label for="inputName">Name:</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="Enter Name"></div>
+                    <div>
+                        <label for="inputName">Name:</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter Name"></div>
 
                 </div>
                 <div class="form-group col-12">
@@ -126,36 +151,39 @@
                 </div>
                 <div class="form-group col-12">
                     <div>
-                            <div class="form-check-inline">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                                        value="option1" checked>
-                                    <label class="form-check-label" for="exampleRadios1">
-                                            💎  Diamond
-                                    </label>
-                                </div>
-                                <div class="form-check-inline">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                                        value="option2">
-                                    <label class="form-check-label" for="exampleRadios2">
-                                            🥇  Gold
-                                    </label>
-                                </div>
-                                <div class="form-check-inline">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
-                                        value="option3">
-                                    <label class="form-check-label" for="exampleRadios3">
-                                            🥈  Silver
-                                    </label>
-                                </div>
-                               
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                💎 Diamond
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                🥇 Gold
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                                value="option3">
+                            <label class="form-check-label" for="exampleRadios3">
+                                🥈 Silver
+                            </label>
+                        </div>
+
                     </div>
-                    <small>Uncertain? <a href="packages.html" target="_blank">Packages</small>
-                    
+                    <div>
+                        <small>Uncertain? <a href="packages.html">Packages</a></small>
+                    </div>
+
+
                 </div>
                 <div class="form-group col-12 d-flex justify-content-around">
 
                     <div>
-                        <button type="submit" class="btn btn-primary" onclick=orderAccepted()>Submit</button>
+                        <button type="button" class="btn btn-primary" id="submit-button">Submit</button>
                     </div>
 
                 </div>
@@ -165,30 +193,30 @@
     </main>
 
     <footer>
-            <section class="container-fluid">
-                <section class="row">
-                    <div class="col-12">
-                        <p>Our partners:</p>
-                    </div>
-                    <div class="col footer-sponsors d-flex justify-content-around">
-                        <img src="images/sponsor1.png" alt="">
-                        <img src="images/sponsor2.png" alt="">
-                        <img src="images/sponsor3.png" alt="">
-                        <img src="images/sponsor4.png" alt="">
-                        <img src="images/sponsor5.png" alt="">
-                    </div>
-                </section>
+        <section class="container-fluid">
+            <section class="row">
+                <div class="col-12">
+                    <p>Our partners:</p>
+                </div>
+                <div class="col footer-sponsors d-flex justify-content-around">
+                    <img src="images/sponsor1.png" alt="">
+                    <img src="images/sponsor2.png" alt="">
+                    <img src="images/sponsor3.png" alt="">
+                    <img src="images/sponsor4.png" alt="">
+                    <img src="images/sponsor5.png" alt="">
+                </div>
             </section>
-            <main class="container">
-                <section class="row">
-                    <div class="col d-flex justify-content-center">
-                        <i class="fab fa-facebook" id="icons"></i>
-                        <i class="fab fa-instagram" id="icons"></i>
-                        <i class="fab fa-twitter" id="icons"></i>
-                    </div>
-                </section>
-            </main>
-        </footer>
+        </section>
+        <main class="container">
+            <section class="row">
+                <div class="col d-flex justify-content-center">
+                    <i class="fab fa-facebook" id="icons"></i>
+                    <i class="fab fa-instagram" id="icons"></i>
+                    <i class="fab fa-twitter" id="icons"></i>
+                </div>
+            </section>
+        </main>
+    </footer>
 </body>
 
 </html>

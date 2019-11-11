@@ -8,42 +8,45 @@
     <title>Business section</title>
     <script defer src="main.js"></script>
     <link rel="stylesheet" href="BootStrap/css/bootstrap.min.css">
+    <script defer src="BootStrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <section class="container header-container">
-            <section class="container">
-                <section class="row row-first">
-                    <section class="col-4 logo">
-                        <img src="images/logo3.png">
-                    </section>
-                    <section class="col-4 title">
-                        <h1 class="display-4 headline">Chyvek</h1>
-                    </section>
-                </section>
-                <nav class="navbar navbar-expand-sm navbar-light">
+            <nav class="navbar navbar-expand-sm navbar-light">
                     <ul class="navbar-nav">
-                            <i class="fas fa-arrow-left" id="left-arrow"></i>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
+                        <i class="fas fa-arrow-left" id="left-arrow"></i>
+                         <li class="nav-item dropdown d-flex flex-column align-items-center active">                   
+                                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                                                Home
+                                            </a>
+                                            <small id="sub-nav">Business</small>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="index.html">Main</a>
+                                <a class="dropdown-item" href="school.html">School</a>
+                            </div>
+                        </li>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="aditional-service.html">Additional Service</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="motivational-speeches.html">Motivational Speeches</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown">
+                                Our Services
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="packages.html">Our Packages</a>
+                                <a class="dropdown-item" href="motivational-speeches.html">Motivational Speeches</a>
+                                <a class="dropdown-item" href="aditional-service.html">Additional Service</a>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="packages.html">Packages</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="success-stories.html">Success Stories</a>
@@ -54,165 +57,174 @@
                         <i class="fas fa-arrow-right" id="right-arrow"></i>
                     </ul>
                 </nav>
-            </header>
-
-        <main>
-
-                
-                
-                <section class="row row-second">
-                    <section class="col second">
-                        <p class="lead slogan-text">Could have been better</p>
-
-                    </section>
-                </section>
-            </section>
-        </section>
-        
     </header>
 
-    <main>
-        <div class="jumbotron jumbotron-fluid">
-        <section class="container" id="introduction">
-            <article class="row">
-                <div class="col-12 d-flex justify-content-around mt-5 mb-5">
-                    <div>
-                        <img class="intro-pic" src="images/intro_bussiness1.jpg" alt="">
-                    </div>
-                    <div class="pl-3 pr-3">
-                        <h2>What can we do for you?</h2>
-                        <p>Every day it gets worse for the poor companies, new laws that force them to pay overtime if
-                            it is more than 8-hour work.
-                            Paid vacation, breaks, etc.
-                            Not being able to fire whoever they want when they want even when they refuse a direct order
-                            or behave disrespectfully.
-                            Which have made today's workers spoiled and lazy and instead of doing any actual work spend
-                            their day complaining about their work.
-                            When will the madness end?
-                            Remember the good old days when they knew their place and was content with just some bread
-                            crumbs.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 d-flex justify-content-around  mt-5 mb-5">
-                    <div  class="pl-3 pr-3">
-                        <h2>What to expect</h2>
-                        <p>It is here Chyvek comes in and saves the day! That will make the employees once again worship
-                            you as a god and never dare to go against you again.
-                            After they have gone through our service they will be so happy to be back to their old
-                            workplace and will do anything to never experience that again.
-                            Your employees will be more focused, have more energy, loyal as a well-trained dog is to
-                            their master.
-                            With a smile on their face as they are too afraid to do anything else.
-                        </p>
-                    </div>
-                    <div> <img class="intro-pic" src="images/intro_bussiness2.jpg" alt=""></div>
-                </div>
-            </div>
-            </article>
-        </section>
+        <main>
+            <div class="jumbotron jumbotron-fluid">
+                <section class="container-fluid" id="introduction"> 
+                    <article class="row">
+                        <div class="col-12 d-flex justify-content-around my-5">
+                            <section class="row text-center">
+                                <section class="col-12 col-md-6 px-3">
+                                    <img class="intro-pic" src="images/intro_bussiness1.jpg" alt="">
 
-        <section class="container" id="form-wrapper">
-            <section class="row">
-                <section class="col">
-                    <h1>Order form</h1>
-                    <p></p>
+                                </section>
+                                <section class="col-12 col-md-6 px-3">
+                                    <h2>What can we do for you?</h2>
+                                    <p class="mx-3">Every day it gets worse for the poor companies, new laws that force
+                                        them
+                                        to pay
+                                        overtime if
+                                        it is more than 8-hour work.
+                                        Paid vacation, breaks, etc.
+                                        Not being able to fire whoever they want when they want even when they refuse a
+                                        direct order
+                                        or behave disrespectfully.
+                                        Which have made today's workers spoiled and lazy and instead of doing any actual
+                                        work spend
+                                        their day complaining about their work.
+                                        When will the madness end?
+                                        Remember the good old days when they knew their place and was content with just
+                                        some bread
+                                        crumbs.
+                                    </p>
+                                </section>
+
+                            </section>
+                        </div>
+                        <div class="col-12 d-flex justify-content-around  my-5">
+                            <section class="row text-center">
+                                <section class="col-12 col-md-6 px-3">
+                                    <h2>What to expect</h2>
+                                    <p class="mx-3">It is here Chyvek comes in and saves the day! That will make the
+                                        employees once
+                                        again
+                                        worship
+                                        you as a god and never dare to go against you again.
+                                        After they have gone through our service they will be so happy to be back to
+                                        their
+                                        old
+                                        workplace and will do anything to never experience that again.
+                                        Your employees will be more focused, have more energy, loyal as a well-trained
+                                        dog
+                                        is to
+                                        their master.
+                                        With a smile on their face as they are too afraid to do anything else.
+                                    </p>
+
+                                </section>
+                                <section class="col-12 col-md-6 px-3">
+                                    <img class="intro-pic" src="images/intro_bussiness2.jpg" alt="">
+
+                                </section>
+                            </section>
+                        </div>
+                    </article>
+                </section>
+            </div>
+            <section class="container" id="form-wrapper">
+                <section class="row">
+                    <section class="col">
+                        <h1>Order form</h1>
+                        <p></p>
+
+                    </section>
 
                 </section>
+                <form class="row">
+                    <div class="form-group col-12">
+                        <div>
+                        <label for="inputName">Name:</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter Name">
+                    </div>
 
-            </section>
-            <form class="row">
-                <div class="form-group col-12">
+                    </div>
+                    <div class="form-group col-12">
+                        <label for="inputEmail">Email address:</label>
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                    </div>
+                    <div class="form-group col-12">
+                        <label for="inputPhone">Phone number:</label>
+                        <input type="tel" class="form-control" id="inputPhone" placeholder="Phone number">
+                    </div>
+                    <div class="form-group col-12 d-flex flex-column">
+                        <label for="inputCount">Quantity (between 1 and 5):</label>
+                        <input type="number" id="inputCount" class="form-control" name="quantity" min="1" max="5">
+                        <small>More than 5? Please contact us on 020-432890</small>
+                    </div>
+                    <div class="form-group col-12">
+                        <div>
+                            <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    💎 Diamond
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    🥇 Gold
+                                </label>
+                            </div>
+                            <div class="form-group col-12 d-flex justify-content-around">
 
-                    <label for="inputName">Name:</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="Enter Name"></div>
+                                <div>
+                                    <button type="submit" class="btn btn-primary"
+                                        onclick="orderAccepted()">Submit</button>
+                                </div>
 
-                </div>
-                <div class="form-group col-12">
-                    <label for="inputEmail">Email address:</label>
-                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
-                        placeholder="Enter email">
-                </div>
-                <div class="form-group col-12">
-                    <label for="inputPhone">Phone number:</label>
-                    <input type="tel" class="form-control" id="inputPhone" placeholder="Phone number">
-                </div>
-                <div class="form-group col-12 d-flex flex-column">
-                    <label for="inputCount">Quantity (between 1 and 5):</label>
-                    <input type="number" id="inputCount" class="form-control" name="quantity" min="1" max="5">
-                    <small>More than 5? Please contact us on 020-432890</small>
-                </div>
-                <div class="form-group col-12">
-                    <div>
-                        <div class="form-check-inline">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                                value="option1" checked>
-                            <label class="form-check-label" for="exampleRadios1">
-                                💎 Diamond
-                            </label>
-                        </div>
-                        <div class="form-check-inline">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                                value="option2">
-                            <label class="form-check-label" for="exampleRadios2">
-                                🥇 Gold
-                            </label>
+                                <div class="form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios3" value="option3">
+                                    <label class="form-check-label" for="exampleRadios3">
+                                        🥈 Silver
+                                    </label>
+                                </div>
+
+                            </div>
+                            <small>Uncertain? <a href="packages.html">Packages</a></small>
+
                         </div>
                         <div class="form-group col-12 d-flex justify-content-around">
-        
+
                             <div>
-                                <button type="submit" class="btn btn-primary"onclick=orderAccepted()>Submit</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
                             </div>
-        
-                        <div class="form-check-inline">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
-                                value="option3">
-                            <label class="form-check-label" for="exampleRadios3">
-                                🥈 Silver
-                            </label>
+
                         </div>
-
-                    </div>
-                    <small>Uncertain? <a href="packages.html" target="_blank">Packages</small>
-
-                </div>
-                <div class="form-group col-12 d-flex justify-content-around">
-
-                    <div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-
-                </div>
-
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <section class="container-fluid">
-            <section class="row">
-                <div class="col-12">
-                    <p>Our partners:</p>
-                </div>
-                <div class="col footer-sponsors d-flex justify-content-around">
-                    <img src="images/sponsor1.png" alt="">
-                    <img src="images/sponsor2.png" alt="">
-                    <img src="images/sponsor3.png" alt="">
-                    <img src="images/sponsor4.png" alt="">
-                    <img src="images/sponsor5.png" alt="">
-                </div>
-            </section>
-        </section>
-        <main class="container">
-            <section class="row">
-                <div class="col d-flex justify-content-center">
-                    <i class="fab fa-facebook" id="icons"></i>
-                    <i class="fab fa-instagram" id="icons"></i>
-                    <i class="fab fa-twitter" id="icons"></i>
-                </div>
+                        </div>        
+                </form>
             </section>
         </main>
-    </footer>
+
+        <footer>
+            <section class="container-fluid">
+                <section class="row">
+                    <div class="col-12">
+                        <p>Our partners:</p>
+                    </div>
+                    <div class="col footer-sponsors d-flex justify-content-around">
+                        <img src="images/sponsor1.png" alt="">
+                        <img src="images/sponsor2.png" alt="">
+                        <img src="images/sponsor3.png" alt="">
+                        <img src="images/sponsor4.png" alt="">
+                        <img src="images/sponsor5.png" alt="">
+                    </div>
+                </section>
+            </section>
+            <main class="container">
+                <section class="row">
+                    <div class="col d-flex justify-content-center">
+                        <i class="fab fa-facebook" id="icons"></i>
+                        <i class="fab fa-instagram" id="icons"></i>
+                        <i class="fab fa-twitter" id="icons"></i>
+                    </div>
+                </section>
+            </main>
+        </footer>
 </body>
 
 </html>
