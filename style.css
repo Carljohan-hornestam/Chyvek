@@ -100,11 +100,11 @@ a {
     background-size: cover; scales the background image to be as large as possible */
   
 body {
-    background-image: url(images/sony_one_job.jpg.optimal.jpg);
+    background-image: url(https://cdn.apartmenttherapy.info/image/fetch/f_png,e_colorize:100,co_rgb:cccccc,fl_png8,w_730/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F2%2F2009%2F10%2F2a5bd532101531ec06628e67bcea2a7f1551f3df.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: rgba(255,255,255,0.6);
-    background-blend-mode: lighten;
+    /*background-blend-mode: lighten;*/
     background-size: cover;
   }
 
