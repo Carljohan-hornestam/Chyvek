@@ -11,6 +11,15 @@ h1, h2, a, p {
 
 }
 
+#sub-nav{
+    position: absolute;
+}
+
+#sub-nav > a{
+font-size: 70%;
+}
+
+
 h1 {
     font-family: 'Brandon',Helvetica,Arial,sans-serif;
     letter-spacing: .125em;
