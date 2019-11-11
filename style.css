@@ -176,6 +176,8 @@ a:hover {
     background-color: #efefef;
     margin: 5vh 0 0 0;
     height: 20vh;
+    
+    
 }
 
 .footer:hover{
@@ -195,6 +197,7 @@ a:hover {
 }
 #arnold{
     width: 100%;
+    border-radius: 25px;
 }
 
 #inputCount{
@@ -296,12 +299,14 @@ section#front-page.container{
     background-size: cover;
     height: 70vh;
     opacity: 0.9;
+    border-radius: 25px;
     
 }
 
 .img1 {
     height: 180px;
     width: 180px;
+    
 }
 
 .img2{
@@ -320,10 +325,11 @@ section#front-page.container{
    border-color:  rgb(32, 137, 151);
    color: rgb(255, 255, 255);
    border-width: 2px;
-   width: 200px;
+   width: 150px;
    font-size: 20px;
    font-family: 'Raleway', sans-serif;
    text-shadow: white 0px 0px 20px;
+   height: 50px;
   
   
  }
@@ -366,6 +372,65 @@ section#front-page.container{
 }
 
 
+
+@media (max-width: 767px) {
+    .carousel-inner p{
+        display: none;
+    }
+/*    .carousel-inner img{
+        width: 100%;
+    }*/
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .carousel-inner p{
+        width:80%
+    }
+
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 20px; 
+      padding-bottom: 25px; 
+    }
+}
+
+i
+{
+    padding-bottom: 25px;
+}
+  
+@media (max-width: 1400px) {
+    .carousel-control-next,
+    .carousel-control-prev {
+        filter: invert(100%);
+        font-size: larger;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 100px;
+        width: 100px;
+        background-size: 70%, 70%;
+        border-radius: 50%;
+/*        border: 1px solid black;*/
+    }
+}
+
+
+
+ 
+
+
+
+
+
+
+    
 
 
 
