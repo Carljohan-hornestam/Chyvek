@@ -330,6 +330,19 @@ section#front-page.container{
 
 }
 
+@media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 20px; 
+      padding-bottom: 25px; 
+    }
+}
+
+i
+{
+    padding-bottom: 25px;
+}
+  
+
 
 
 
