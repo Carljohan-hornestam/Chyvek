@@ -171,6 +171,7 @@ a:hover {
     border-radius: 14px;
     background-color: whitesmoke; 
     margin: 3em auto;
+    padding-top: 1em;
 }
 #package-form img{
 height: 22px;
@@ -307,8 +308,10 @@ section#front-page.container{
    font-family: 'Raleway', sans-serif;
    text-shadow: white 0px 0px 20px;
   
+  
  }
   
+
 .btn:hover{
     background-image:none;
     background-color: transparent;
@@ -316,7 +319,23 @@ section#front-page.container{
     color: rgb(32, 137, 151);
     
 }
+
+.btn:active {
+    background-color: transparent !important;
+    border-color: rgb(32, 137, 151) !important;
+    color: rgb(32, 137, 151) !important;
+    outline:none !important;
+}
+
+.btn:focus {
+    box-shadow:none !important;
+}
+
+
+    
 /*
+}
+
 .hidden-text {
     display: none;
 }
@@ -346,6 +365,10 @@ section#front-page.container{
     }
 
 }
+
+
+
+
 
 
 
