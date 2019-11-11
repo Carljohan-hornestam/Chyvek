@@ -61,7 +61,7 @@ nav li a {
 
 /* Displaying a bottom border while hovering the navbar */
 a:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     transition: .25s linear;
 }
 
@@ -310,7 +310,6 @@ section#front-page.container{
     height: 180px;
     width: 180px;
 }
-
 .btn {
     border-radius: 17px;
     color: rgb(255, 255, 255);
@@ -336,6 +335,7 @@ section#front-page.container{
     display: none;
 }
 */
+
  
 
 
