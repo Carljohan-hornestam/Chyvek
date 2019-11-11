@@ -325,10 +325,11 @@ section#front-page.container{
    border-color:  rgb(32, 137, 151);
    color: rgb(255, 255, 255);
    border-width: 2px;
-   width: 200px;
+   width: 150px;
    font-size: 20px;
    font-family: 'Raleway', sans-serif;
    text-shadow: white 0px 0px 20px;
+   height: 50px;
   
   
  }
