@@ -1,0 +1,5 @@
+.gallery-wrapper img{
+    border-radius: 7px;
+  
+    object-fit: cover;
+}
