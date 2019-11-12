@@ -248,6 +248,7 @@ width: 22px;
 }
 
 
+
 .intro-pic {
 height: 267px;
 width: 360px;
@@ -377,7 +378,9 @@ i
 
 
 
-  
+.active-border{
+   border-bottom: black 1px solid;
+ }
 
 
 
