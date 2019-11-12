@@ -36,6 +36,8 @@ h1, h2, a, p {
     font-size: 150%;
 }
 
+
+
 @media screen and (min-width: 768px) {
     #sub-nav{
         position: absolute;
@@ -248,9 +250,7 @@ width: 22px;
 }
 
 
-.giphy-embed{
-    width: 50%;
-}
+
 .intro-pic {
 height: 267px;
 width: 360px;
@@ -279,6 +279,8 @@ section#front-page.container{
 .img3{
     height: 180px;
     width: 180px;
+    background-size: cover;
+    
 }
 .btn {
     border-radius: 17px;
@@ -374,7 +376,21 @@ i
 {
     padding-bottom: 25px;
 }
-  
+.fa-facebook,.fa-instagram, .fa-twitter  {
+    color:  rgb(32, 137, 151);
+
+}
+
+.fa-facebook:hover,.fa-instagram:hover, .fa-twitter:hover{
+    color:  rgb(4, 57, 65);
+}
+
+
+
+
+.active-border{
+   border-bottom: black 1px solid;
+ }
 
 
 
