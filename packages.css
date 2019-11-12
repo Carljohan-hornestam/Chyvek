@@ -1,21 +1,36 @@
-#silverpackagetext{
-    color: darkslategrey;
+.silverpackagetext{
+    color: silver;
     text-align: center;
-    font-weight: 800;
+    text-shadow: black 1px 1px 1px;
+    font-size: 125%;
+    padding: 1em;
+   
 }
-#goldpackagetext{
+.goldpackagetext{
     color: gold;
-    text-align: center;
-    font-weight: 800;
+  text-align: center;
+   margin-left: 1em;
+   text-shadow: black 1px 1px 1px;
+   font-size: 125%;
+   padding: 1em;
 }
-#diamondpackagetext{
+.diamondpackagetext{
     color: darkturquoise;
     text-align: center;
-    font-weight: 800;
+    margin-left: 1em;
+    text-shadow: black 1px 1px 1px;
+    font-size: 125%;
+    padding: 1em;
 }
+
+#package-wrapper{
+    background: whitesmoke;
+    border-radius: 14px;
+    padding-top: 1em;
+}
+
 .includedtext{
     text-align: center;
-    font-size: 80%;
 }
 .package{
     border: 1px solid black;
@@ -24,7 +39,7 @@
     font-size: 1000%;
 }
 .package-img{
-    width: 350px;
+    min-width: 350px;
     height: 280px;
 }
 .benjitext{

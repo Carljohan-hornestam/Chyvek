@@ -16,6 +16,12 @@
     padding-bottom: 40px;
 }
 
+@media (max-width: 425px) {
+.carousel-item img{
+    width: 100%;
+}    
+}
+
 
 @media (max-width: 767px) {
     .carousel-inner p{
@@ -24,11 +30,7 @@
 /*    .carousel-inner img{
         width: 100%;
     }*/
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+    
 }
 
 @media (max-width: 800px) {
