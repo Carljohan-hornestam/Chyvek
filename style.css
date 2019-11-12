@@ -139,6 +139,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .fp-top {
@@ -249,6 +250,7 @@ section#front-page.container {
   height: 70vh;
   opacity: 0.9;
   border-radius: 25px;
+
 }
 
 .img1 {
@@ -362,6 +364,7 @@ i {
   #front-page-text {
     font-size: 90%;
     margin-bottom: 100px;
+    
   }
 }
 .fa-facebook,.fa-instagram, .fa-twitter  {
@@ -386,6 +389,17 @@ i {
  .dropdown-item:hover{
     background-color:  rgb(32, 137, 151);
  }
+
+ .dropdown-item{
+    font-family: 'Raleway', sans-serif;
+    
+
+ }
+
+ 
+
+
+ 
 
 
 
