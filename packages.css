@@ -33,6 +33,10 @@
     margin-top: 1em;
 }
 
+#packageIcon{
+font-style: normal;
+font-size: 500%;
+}
 .package-content{
     padding: 1em 1em;
 }
