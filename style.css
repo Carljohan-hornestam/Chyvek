@@ -206,7 +206,7 @@ a:hover {
 }
 
 #form-wrapper{
-    width: 500px;
+    max-width: 500px;
     border: 1px solid gray;
     border-radius: 14px;
     background-color: whitesmoke; 
@@ -217,45 +217,7 @@ a:hover {
 height: 22px;
 width: 22px;
 }
-#silverpackagetext{
-    color: darkslategrey;
-    text-align: center;
-    font-weight: 800;
-}
-#goldpackage{
-    color: gold;
-    text-align: center;
-    font-weight: 800;
-}
-#diamondpackage{
-    color: darkturquoise;
-    text-align: center;
-    font-weight: 800;
-}
-.includedtext{
-    text-align: center;
-    font-size: 80%;
-}
-.packages{
-    border: 1px solid black;
-}
-.package-icon{
-    font-size: 1000%;
-}
-#silver-package{
-    border: 1px solid black;
-}
-.package-img{
-    width: 350px;
-    height: 280px;
-}
-.benjitext{
-    text-align: center;
-}
-.worstjobtext{
-    text-align: center;
-    font-size: 80%;
-}
+
 .img-success img{
   max-height: 6em;
   width: auto;
@@ -373,25 +335,21 @@ section#front-page.container{
 
 
 
-@media (max-width: 767px) {
-    .carousel-inner p{
-        display: none;
+
+
+ /* media query för ALLA footers */
+@media (max-width: 425px){
+    
+    .footer-sponsors{
+        font-size: 55%;
+        padding-top: 20px;
     }
-/*    .carousel-inner img{
+    .packages-socialmedia{
+        padding-bottom: 20px;
+    }
+    .intro-pic{
         width: 100%;
-    }*/
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
-}
-
-@media (max-width: 800px) {
-    .carousel-inner p{
-        width:80%
-    }
-
 }
 
 @media (min-width: 576px) {
@@ -406,20 +364,6 @@ i
     padding-bottom: 25px;
 }
   
-@media (max-width: 1400px) {
-    .carousel-control-next,
-    .carousel-control-prev {
-        filter: invert(100%);
-        font-size: larger;
-    }
-    .carousel-control-prev-icon, .carousel-control-next-icon {
-        height: 100px;
-        width: 100px;
-        background-size: 70%, 70%;
-        border-radius: 50%;
-/*        border: 1px solid black;*/
-    }
-}
 
 
 
@@ -431,6 +375,7 @@ i
 
 
     
+
 
 
 
