@@ -222,7 +222,7 @@ a:hover {
   text-align: center;
 }
 .gallery-img {
-  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 #img-success-row {
   padding: 30px;
