@@ -374,6 +374,14 @@ i
 {
     padding-bottom: 25px;
 }
+.fa-facebook,.fa-instagram, .fa-twitter  {
+    color:  rgb(32, 137, 151);
+
+}
+
+.fa-facebook:hover,.fa-instagram:hover, .fa-twitter:hover{
+    color:  rgb(4, 57, 65);
+}
 
 
 
