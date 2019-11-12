@@ -33,6 +33,10 @@
     margin-top: 1em;
 }
 
+#packageIcon{
+font-style: normal;
+font-size: 500%;
+}
 .package-content{
     padding: 1em 1em;
 }
@@ -80,10 +84,6 @@
     #submit-button{
         font-size: 90%;
         width: 70px;
-    }
-    .footer-sponsors{
-        font-size: 10%;
-        padding-top: 20px;
     }
     .packages-socialmedia{
         padding-bottom: 20px;

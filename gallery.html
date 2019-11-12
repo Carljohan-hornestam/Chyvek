@@ -11,6 +11,7 @@
     <script defer src="BootStrap/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/2c5ecc5da6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
 
 </head>
 
@@ -20,7 +21,9 @@
             <section class="container d-flex flex-column align-items-center">
                 <section class="row" id="nav-logo">
                     <section class="col logo">
+                        <a href="index.html">
                             <img src="images/vboy.png" height="200vh" width="250vh">
+                        </a>
                     </section>
                     <section class="col d-flex align-items-center">
                         <h1>CHYVEK</h1>
@@ -33,10 +36,14 @@
                 </section>     
         </section>
     </section>
-                <nav class="navbar navbar-expand-md navbar-light">
-                    <ul class="navbar-nav" id="nav-text">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+    <nav class="navbar navbar-expand-md navbar-light justify-content-start">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+       <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
+      <ul class="navbar-nav" id="nav-text">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                                 Home
                             </a>
                             <div class="dropdown-menu">
@@ -71,9 +78,10 @@
                             <a class="nav-link" href="top10jobs.html">Top 10 Boring Jobs</a>
                         </li>
                     </ul>
+                </div>
                 </nav>
             </header>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid gallery-wrapper">
         <section class="container">
             <section class="row">
                 <div class="col-4 beforewhileafter">
@@ -87,7 +95,7 @@
                 </div>
             </section>
         </section>
-        <section class="container">
+        <section class="container ">
             <section class="row">
                 <div class="col-4">
                     <img src="https://www.dealerknows.com/wp-content/uploads/2016/08/DealerKnows-Bored-at-Work-300x300.png"
