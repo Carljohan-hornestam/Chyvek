@@ -248,9 +248,6 @@ width: 22px;
 }
 
 
-.giphy-embed{
-    width: 50%;
-}
 .intro-pic {
 height: 267px;
 width: 360px;
@@ -279,6 +276,8 @@ section#front-page.container{
 .img3{
     height: 180px;
     width: 180px;
+    background-size: cover;
+    
 }
 .btn {
     border-radius: 17px;
@@ -336,6 +335,12 @@ section#front-page.container{
 
 
 
+@media (max-width: 800px) {
+    .carousel-inner p{
+        width:80%
+    }
+}
+
 
  /* media query för ALLA footers */
 @media (max-width: 425px){
@@ -358,11 +363,20 @@ section#front-page.container{
       padding-bottom: 25px; 
     }
 }
+@media(max-width: 641px) {
+    .footer-sponsors{
+        padding-top: 20px;
+    }
+}
 
 i
 {
     padding-bottom: 25px;
 }
+
+
+
+
   
 
 
