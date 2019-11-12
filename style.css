@@ -249,8 +249,6 @@ width: 22px;
     margin-top: 30px
 }
 
-
-
 .intro-pic {
 height: 267px;
 width: 360px;
@@ -298,7 +296,6 @@ section#front-page.container{
   
  }
   
-
 .btn:hover{
     background-image:none;
     background-color: transparent;
@@ -334,9 +331,6 @@ section#front-page.container{
     color: rgb(32, 137, 151);
 
 }
-
-
-
 
 @media (max-width: 800px) {
     .carousel-inner p{
@@ -385,12 +379,20 @@ i
     color:  rgb(4, 57, 65);
 }
 
-
-
-
 .active-border{
    border-bottom: black 1px solid;
  }
+
+ .dropdown-item:active{
+    background-color:  rgb(32, 137, 151);
+    color: black;
+     
+ }
+
+ .dropdown-item:hover{
+    background-color:  rgb(32, 137, 151);
+ }
+
 
 
 
