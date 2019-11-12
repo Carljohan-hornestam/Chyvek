@@ -35,7 +35,7 @@ function showAnswer(){
  }
  
  // toggle form visible/invisible
- $('#form-wrapper > *').fadeToggle()
+ $('#form-wrapper > *').toggle()
  
 }
 
