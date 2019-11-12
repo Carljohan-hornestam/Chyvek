@@ -340,8 +340,8 @@ section#front-page.container{
     .carousel-inner p{
         width:80%
     }
+}
 
-} /* media query för ALLA footers */
 @media (max-width: 320px){
     
     .footer-sponsors{
@@ -357,6 +357,11 @@ section#front-page.container{
     .jumbotron {
       padding-top: 20px; 
       padding-bottom: 25px; 
+    }
+}
+@media(max-width: 641px) {
+    .footer-sponsors{
+        padding-top: 20px;
     }
 }
 

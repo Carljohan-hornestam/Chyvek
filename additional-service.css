@@ -1,0 +1,11 @@
+@media(max-width: 320px){
+    #additionalservice-img{
+        width: 100%;
+    }
+}
+@media(max-width: 641px){
+    #additionalservice-img{
+        width: 100%;
+        height: 70%;
+    }
+}
