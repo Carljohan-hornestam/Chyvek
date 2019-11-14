@@ -286,8 +286,8 @@ section#front-page.container {
  }
   
 .btn:hover{
-    background-image:none;
-    background-color: transparent;
+   
+    background-color: yellow;
     border-color: rgb(32, 137, 151);
     color: rgb(32, 137, 151);
     
