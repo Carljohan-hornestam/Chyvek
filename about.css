@@ -16,8 +16,25 @@ figcaption{
 @media(max-width: 767px){
     #textaboutpage{
         text-align: center;
+        
     }
 }
+
+@media only screen and (max-width: 600px){
+    figcaption{
+        padding-bottom: 12%;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #aboutpage{
+        margin-bottom: 1em;
+    }
+}
+
+
+
 
 
 
