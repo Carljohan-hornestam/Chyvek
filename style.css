@@ -215,12 +215,14 @@ a:hover {
   max-height: 6em;
   width: auto;
 }
-#welcome {
+.gallerymsg {
   text-align: center;
   color: black;
+  margin-bottom: 2em;
 }
 .beforewhileafter {
   text-align: center;
+  padding-right: 3em;
 }
 .gallery-img {
   margin-bottom: 1em;
