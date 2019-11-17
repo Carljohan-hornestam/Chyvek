@@ -1,0 +1,437 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+a,
+p {
+  font-family: "Brandon", Helvetica, Arial, sans-serif;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+  font-size: 1em;
+}
+
+#sub-nav {
+  position: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 5px;
+  background-color: rgba(245, 245, 245, 0.7);
+  border-radius: 7px;
+  margin-bottom: 1em;
+}
+#nav-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+#nav-slogan > h2 {
+  font-size: 75%;
+}
+
+#nav-text {
+  font-size: 150%;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  #sub-nav {
+    position: absolute;
+    flex-direction: row;
+    margin: inherit;
+    padding: inherit;
+    background-color: transparent;
+  }
+
+  #nav-logo {
+    flex-direction: row;
+  }
+  #nav-slogan > h2 {
+    font-size: 100%;
+  }
+
+  #nav-text {
+    font-size: 100%;
+  }
+}
+
+#sub-nav > a {
+  font-size: 70%;
+}
+
+h1 {
+  font-family: "Brandon", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.125em;
+  font-size: 42px;
+  line-height: 38px;
+  font-style: normal;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-family: "Brandon", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.125em;
+  font-size: 32px;
+  line-height: 38px;
+  font-style: normal;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+h5 {
+  font-family: "Brandon", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+a {
+  padding: 0;
+}
+
+/* 0.6 is opacity
+    background-size: cover; scales the background image to be as large as possible */
+
+body {
+  background-image: url(https://cdn.apartmenttherapy.info/image/fetch/f_png,e_colorize:100,co_rgb:cccccc,fl_png8,w_730/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F2%2F2009%2F10%2F2a5bd532101531ec06628e67bcea2a7f1551f3df.jpeg
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.6);
+  /*background-blend-mode: lighten;*/
+  background-size: cover;
+}
+
+/* Adding a bottom border to nav links without pushing down its parent */
+nav li a {
+  border-bottom: 3px solid transparent;
+}
+
+/* Displaying a bottom border while hovering the navbar 
+a:hover {
+    border-bottom: 1px solid black;
+    transition: .25s linear;
+}
+*/
+
+.nav-link {
+  padding: 0;
+}
+
+.logo {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+.frontpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.fp-top {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.fp-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 16px;
+}
+
+.footer-sponsors img {
+  max-height: 3em;
+  width: auto;
+}
+.icons {
+  font-size: 150%;
+  padding-top: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #efefef;
+  margin: 5vh 0 0 0;
+  height: 20vh;
+}
+
+.footer:hover {
+  border-bottom: none;
+}
+
+.ft-top {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 45vw;
+  margin: 2vh 0;
+}
+
+.footer-sponsors {
+  display: flex;
+  justify-content: space-evenly;
+}
+#arnold {
+  width: 100%;
+  border-radius: 25px;
+}
+
+#inputCount {
+  display: inline-block;
+  width: 5em;
+}
+
+#form-wrapper {
+  max-width: 500px;
+  border: 1px solid gray;
+  border-radius: 14px;
+  background-color: whitesmoke;
+  margin: 3em auto;
+  padding-top: 1em;
+}
+#package-form img {
+  height: 22px;
+  width: 22px;
+}
+
+.img-success img {
+  max-height: 6em;
+  width: auto;
+}
+.gallerymsg {
+  text-align: center;
+  color: black;
+  margin-bottom: 2em;
+}
+.beforewhileafter {
+  text-align: center;
+  padding-right: 3em;
+}
+.gallery-img {
+  margin-bottom: 1em;
+}
+#img-success-row {
+  padding: 30px;
+}
+.col1 {
+  float: left;
+  width: 100px;
+}
+
+.col2 {
+  float: left;
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.intro-pic {
+  height: 267px;
+  width: 360px;
+}
+section#front-page.container {
+  background-image: url(https://s3.amazonaws.com/media.eremedia.com/wp-content/uploads/2018/01/09130943/happy-business-people-in-suits.jpg);
+  background-size: cover;
+  height: 70vh;
+  opacity: 0.9;
+  border-radius: 25px;
+
+}
+
+.img1 {
+  height: 180px;
+  width: 180px;
+}
+
+.img2 {
+  height: 180px;
+  width: 180px;
+}
+
+.img3{
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+    
+}
+.btn {
+    border-radius: 17px;
+    color: rgb(255, 255, 255);
+   background-color:  rgb(32, 137, 151);
+   border-color:  rgb(32, 137, 151);
+   color: rgb(255, 255, 255);
+   border-width: 2px;
+   width: 150px;
+   font-size: 20px;
+   font-family: 'Raleway', sans-serif;
+   text-shadow: white 0px 0px 20px;
+   height: 50px;
+  
+  
+ }
+  
+.btn:hover{
+   
+    background-color: yellow;
+    border-color: rgb(32, 137, 151);
+    color: rgb(32, 137, 151);
+    
+}
+
+.btn:active {
+  background-color: transparent !important;
+  border-color: rgb(32, 137, 151) !important;
+  color: rgb(32, 137, 151) !important;
+  outline: none !important;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+/*
+}
+
+.hidden-text {
+    display: none;
+}
+*/
+.btn-primary:active {
+  background-image: none;
+  background-color: transparent;
+  border-color: rgb(32, 137, 151);
+  color: rgb(32, 137, 151);
+}
+
+@media (max-width: 800px) {
+  .carousel-inner p {
+    width: 80%;
+  }
+}
+
+/* media query för ALLA footers */
+@media (max-width: 425px) {
+  .footer-sponsors {
+    font-size: 55%;
+    padding-top: 20px;
+  }
+  .packages-socialmedia {
+    padding-bottom: 20px;
+  }
+  .intro-pic {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 641px) {
+  .footer-sponsors {
+    padding-top: 20px;
+  }
+}
+
+i {
+  padding-bottom: 25px;
+}
+@media (max-width: 767px) {
+  section#front-page.container {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .fp-top {
+    margin-top: 0;
+  }
+  #front-page-text {
+    font-size: 90%;
+    margin-bottom: 100px;
+    
+  }
+}
+.fa-facebook,.fa-instagram, .fa-twitter  {
+    color:  rgb(32, 137, 151);
+
+}
+
+.fa-facebook:hover,.fa-instagram:hover, .fa-twitter:hover{
+    color:  rgb(4, 57, 65);
+}
+
+.active-border{
+   border-bottom: black 1px solid;
+ }
+
+ .dropdown-item:active{
+    background-color:  rgb(32, 137, 151);
+    color: black;
+     
+ }
+
+ .dropdown-item:hover{
+    background-color:  rgb(32, 137, 151);
+ }
+
+ .dropdown-item{
+    font-family: 'Raleway', sans-serif;
+    
+
+ }
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+

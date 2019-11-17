@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="BootStrap/css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/2c5ecc5da6.js" crossorigin="anonymous"></script>
+    <script defer src="BootStrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="packages.css" />
+    <script defer src="packages.js"></script>
+    <title>Packages</title>
+</head>
+
+<body>
+    <header>
+        <section class="container header-container">
+            <section class="container d-flex flex-column align-items-center">
+                <section class="row" id="nav-logo">
+                    <section class="col logo">
+                        <img src="images/vboy.png" height="200vh" width="250vh">
+                    </section>
+                    <section class="col d-flex align-items-center">
+                        <h1>CHYVEK</h1>
+                    </section>
+                </section>
+                <section class="row">
+                    <section class="col" id="nav-slogan">
+                        <h2>COULD HAVE BEEN WORSE</h2>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <nav class="navbar navbar-expand-md navbar-light justify-content-start">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
+                <ul class="navbar-nav" id="nav-text">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                            Home
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="index.html">Main</a>
+                            <a class="dropdown-item" href="school.html">School</a>
+                            <a class="dropdown-item" href="business.html">Business</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active disabled">
+                            Our Services
+                        </a>
+                        <div class="navbar" id="sub-nav">
+                            <a class="nav-link active-border disabled active" href="packages.html">Our Packages</a>
+                            <a class="nav-link" href="motivational-speeches.html">Motivational Speeches</a>
+                            <a class="nav-link" href="aditional-service.html">Additional Services</a>
+                        </div>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="success-stories.html">Success Stories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="top10jobs.html">Top 10 Boring Jobs</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container" id="package-wrapper">
+            <article class="row">
+                <section class="col">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active silverpackagetext" id="home-tab" data-toggle="tab" href="#home"
+                                role="tab" aria-controls="home" aria-selected="true">Silver Package 🥈</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link goldpackagetext" id="profile-tab" data-toggle="tab" href="#profile"
+                                role="tab" aria-controls="profile" aria-selected="false">Gold Package 🥇</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link diamondpackagetext" id="contact-tab" data-toggle="tab" href="#contact"
+                                role="tab" aria-controls="contact" aria-selected="false">Diamond Package 💎</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <section
+                                class="d-flex flex-column justify-content-center align-content-center package-content">
+                                <div>
+
+                                    <p class="includedtext">Benjamin "Benji" Berglund</p>
+                                    <section class="d-flex package-main">
+                                        <img class="img-fluid package-img"
+                                            src="data:image/jpeg;base64,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" />
+                                        <ul>
+                                            <p>Hire our backup boss Benji, when you come back your employees will love
+                                                you,
+                                                he is a master following things.</p>
+                                            <li>Order People Around Like a Dictator</li>
+                                            <li>Humiliate Employees Publicly</li>
+                                            <li>Threaten People</li>
+                                            <li>Throw Temper Tantrums</li>
+                                            <li>Treat People Like They’re Idiots</li>
+                                            <li> Take Credit for Other People’s Work and Place Blame on Others</li>
+                                            <li>Play Favorites</li>
+                                            <li>Invade Employees’ Personal Time</li>
+                                        </ul>
+                                    </section>
+                                </div>
+                                <div>
+                                    <p class="jobtext">
+                                        By finding the path to Enlightenment, Benji was led from the pain
+                                        of suffering and rebirth towards the path of Enlightenment and
+                                        became known as the Programming Buddha or 'awakened one'. A life
+                                        of luxury. Benji Berglund was born around the year 1970 in the
+                                        village of Lumbini in Nepal. One day, after growing up, marrying
+                                        and having a child, Benji went outside the royal enclosure where
+                                        he lived. When he went outside he saw, each for the first time, an
+                                        old man, a sick man, and a corpse. This greatly disturbed him, and
+                                        he learned that sickness, age, and death were the inevitable fate
+                                        of human beings - a fate no-one could avoid.
+                                    </p>
+                                </div>
+
+                            </section>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <section
+                                class="d-flex flex-column justify-content-center align-content-center package-content">
+                                <div>
+
+                                    <p class="includedtext">Outsourcing Gold</p>
+                                    <section class="d-flex package-main">
+                                        <img src="https://media180winter2015.files.wordpress.com/2015/01/ronald-mcdonald-sad.jpg"
+                                            class="img-fluid package-img" />
+                                        <ul>
+                                            <p>Outsource your troubled staff or student for a week to any of our
+                                                partners,
+                                                after that experience you will see a new will to work!</p>
+                                            <li>Bad working conditions</li>
+                                            <li>Breaks to a minimum</li>
+                                            <li>A boss that constantly throws temper tantrums</li>
+                                            <li>Will be constantly treated as an idiot.</li>
+                                            <li>Forced wearing a Ronald Mcdonald costume while working.</li>
+                                        </ul>
+                                    </section>
+                                </div>
+                                <div>
+                                    <p class="jobtext">
+                                        Cars and trucks drive up and down roadways several thousand times
+                                        each day and it's no surprise that a few innocent critters are sent
+                                        to animal heaven early. Who cleans up these poor creatures after
+                                        they expire? Roadkill Removal Specialists specialize in taking care
+                                        of business. These workers prevent further accidents, rancid smells
+                                        and bacteria. Next time you see someone cleaning up poor Bambi,
+                                        thank them for their contributions.
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <section
+                                class="d-flex flex-column justify-content-center align-content-center package-content">
+                                <div>
+
+                                    <p class="includedtext">Outsourcing Diamond</p>
+                                    <section class="d-flex package-main">
+                                        <img src="https://i.ytimg.com/vi/RW6kMdtl9Nc/hqdefault.jpg"
+                                            class="img-fluid package-img" />
+                                        <ul>
+                                            <p>If they thought they had it bad before, this experience will totally
+                                                change their mind.<br>
+                                                Diamond package offers the worst working experiences that you ever can
+                                                imagine</p>
+                                            <li>Extremely bad working conditions</li>
+                                            <li>Breaks to a minimum</li>
+                                            <li>A boss that constantly throws temper tantrums</li>
+                                            <li>Will be constantly treated as an idiot.</li>
+                                        </ul>
+                                </section>
+                            </div>
+                            <div>
+                                <p class="jobtext">
+                                    Head lice and their nits are the banes of many young families’
+                                    lives. Once they take up home on your head, they can be very
+                                    difficult to slay. But with the help of the YOU, a member of the
+                                    prestigious "The Hair Force", the parasites are sent to hell. They
+                                    might wear bandanas, but we reckon they still feel a tad itchy when
+                                    they get home.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                    </div>
+                </section>
+            </article>
+
+        </section>
+
+
+        <section class="container" id="form-wrapper">
+            <section class="row">
+                <section class="col p-3">
+                    <h1 class="text-center">Need help?</h1>
+                    <p>
+                        Not sure what package would suit your needs the best? Just answer
+                        theese 3 questions and we will lead you to the right path! <br />
+                        Still uncertain? Check the contact box and one of our specialists
+                        will contacts you.
+                    </p>
+                </section>
+            </section>
+            <form class="row">
+                <div class="form-group col-12">
+                    <div>
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp"
+                            placeholder="Enter Name" />
+                    </div>
+                </div>
+                <div class="form-group col-12 d-flex justify-content-between">
+                    <div class="range-end d-flex flex-column align-items-center">
+                        <small>Not at all</small>
+                        <img src="images/smiley1.png" alt="" />
+                    </div>
+                    <div class="col d-flex flex-column align-items-center">
+                        <label for="happyRange">Do the subject flow with positive energy?</label>
+                        <input type="range" min="0" max="100" class="form-control-range" id="happyRange" />
+                    </div>
+
+                    <div class="range-end d-flex flex-column align-items-center">
+                        <small>Not enough</small>
+                        <img src="images/smiley2.png" alt="" />
+                    </div>
+                </div>
+                <div class="form-group col-12 d-flex justify-content-between">
+                    <div class="range-end d-flex flex-column align-items-center">
+                        <small>Not at all</small>
+                        <img src="images/smiley1.png" alt="" />
+                    </div>
+                    <div class="col d-flex flex-column align-items-center">
+                        <label for="respectRange">Do you get the respect you deserve?</label>
+                        <input type="range" min="0" max="100" class="form-control-range" id="respectRange" />
+                    </div>
+                    <div class="range-end d-flex flex-column align-items-center">
+                        <small>Not enough</small>
+                        <img src="images/smiley2.png" alt="" />
+                    </div>
+                </div>
+                <div class="form-group col-12 d-flex justify-content-between">
+                    <div class="range-end d-flex flex-column align-items-center">
+                        <small>Not at all</small>
+                        <img src="images/smiley1.png" alt="" />
+                    </div>
+                    <div class="col d-flex flex-column align-items-center">
+                        <label for="satisfiedRange">How satisfied are you with their effort?</label>
+                        <input type="range" min="0" max="100" class="form-control-range" id="satisfiedRange" />
+                    </div>
+                    <div class="range-end d-flex flex-column align-items-center">
+                        <small>Not enough</small>
+                        <img src="images/smiley2.png" alt="" />
+                    </div>
+                </div>
+                <div class="form-group col-12 d-flex justify-content-around">
+                   
+                    <div>
+                        <button type="button" class="btn btn-primary" id="submit-button">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <article class="row-12 d-flex flex-column justify-content-between align-content-center"
+                style="display: none" id="form-answer"></article>
+        </section>
+    </main>
+    <footer>
+        <section class="container">
+            <section class="row">
+                <div class="col-12">
+                    <p>Our partners:</p>
+                </div>
+                <div class="col footer-sponsors py-4">
+                    <div class="col-sm-4 col-lg">
+                        <a href="https://www.mcdonalds.com/se/sv-se.html">
+                            <img src="images/sponsor1.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-lg">
+                        <a href="http://www.donnastad.se/">
+                            <img src="images/sponsor2.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-lg">
+                        <a href="https://www.munkfors.se/">
+                            <img src="images/sponsor5.png" alt="" />
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col footer-sponsors py-4">
+                    <div class="col-sm-6 col-lg">
+                        <a
+                            href="https://www.gotene.se/naringslivocharbete/natverkochnyhetsbrevforforetagare/naringslivsforeningen.7840.html">
+                            <img src="images/sponsor4.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg">
+                        <a href="https://arbetsformedlingen.se/">
+                            <img src="images/sponsor3.png" id="arbetsformedlingen" alt="" />
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="container">
+            <section class="row">
+                <div class="col packages-socialmedia d-flex justify-content-center align-content-center">
+                    <i class="fab fa-facebook icons"></i>
+                    <i class="fab fa-instagram icons"></i>
+                    <i class="fab fa-twitter icons"></i>
+                </div>
+            </section>
+        </section>
+    </footer>
+</body>
+
+</html>

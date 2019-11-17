@@ -1,0 +1,13 @@
+.gallery-wrapper img{
+    border-radius: 7px;
+  
+    object-fit: cover;
+}
+@media(max-width: 420px){
+    .gallerymsg{
+        font-size: 90%;
+    }
+    .beforewhileafter{
+        padding: 0;
+    }
+}
